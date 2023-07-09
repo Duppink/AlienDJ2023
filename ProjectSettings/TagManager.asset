@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Table
+  - Water
+  - UI
+  - Post Processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SatisfactionPoints
+    uniqueID: 2818538005
+    locked: 0
+  - name: Interactuable
+    uniqueID: 595612847
+    locked: 0
+  - name: Characters
+    uniqueID: 2353859127
+    locked: 0
+  - name: SoloSP
+    uniqueID: 1763804683
+    locked: 0
