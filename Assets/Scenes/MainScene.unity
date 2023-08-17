@@ -4396,7 +4396,7 @@ MonoBehaviour:
     - "A veces creo que se cree due\xF1o del mundo con su confianza culi\xE1, lo
       amo pero lo odio.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 427923821}
+  ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
@@ -4436,14 +4436,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 427923814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cb: {fileID: 229372464}
   gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 18
+  identificadorMensaje: 0
 --- !u!1 &431444970
 GameObject:
   m_ObjectHideFlags: 0
@@ -6515,7 +6512,7 @@ MonoBehaviour:
   gm: {fileID: 834203629}
   SP: 3
   Stage: 3
-  identificadorMensaje: 5
+  identificadorMensaje: 19
 --- !u!1 &648790699
 GameObject:
   m_ObjectHideFlags: 0
@@ -13925,9 +13922,9 @@ MonoBehaviour:
   ClassPresident_Friend_Sport: 0
   Esoteric_Friend_ArtChic: 0
   Esoteric_Love_Stoner: 0
-  Mision1_Meteoro: 0
-  Mision2_AgujeroNegro: 0
-  Mision3_UFO: 0
+  Mision1_Durmiendo: 0
+  Mision2_GloboUFO: 0
+  Mision3_Lonchera: 0
   tiempo: {fileID: 741388487}
   timeSong: 242
   timeLeftToStage2: 210
@@ -22217,7 +22214,7 @@ MonoBehaviour:
   gm: {fileID: 834203629}
   SP: 3
   Stage: 3
-  identificadorMensaje: 19
+  identificadorMensaje: 8
 --- !u!1 &1690557416
 GameObject:
   m_ObjectHideFlags: 0
@@ -25826,7 +25823,7 @@ MonoBehaviour:
   gm: {fileID: 834203629}
   SP: 2
   Stage: 2
-  identificadorMensaje: 8
+  identificadorMensaje: 18
 --- !u!1 &2101034216
 GameObject:
   m_ObjectHideFlags: 0

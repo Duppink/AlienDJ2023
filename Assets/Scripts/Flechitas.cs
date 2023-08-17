@@ -77,9 +77,9 @@ public class Flechitas : MonoBehaviour
 
         ///// MISIONES TEXTO
 
-        if (gm.Mision1_Meteoro == true)
+        if (gm.Mision1_Durmiendo == true)
         {
-            misiones[0].text = "El presidente de la clase le mando como chiste un globo meteorito a lopez, su pana.";
+            misiones[0].text = "Se estaban riendo porque se cayó el Choripán justo en la ventana del lado de Marci.";
         }
 
         else
@@ -89,7 +89,7 @@ public class Flechitas : MonoBehaviour
 
         ///
 
-        if (gm.Mision2_AgujeroNegro == true)
+        if (gm.Mision2_GloboUFO == true)
         {
             misiones[1].text = "los humanos relacionan la gravedad del agujero negro con la atraccion romantica.";
         }
@@ -101,7 +101,7 @@ public class Flechitas : MonoBehaviour
 
         ///
 
-        if (gm.Mision3_UFO == true)
+        if (gm.Mision3_Lonchera == true)
         {
             misiones[2].text = "creo que la chica del afro me mando el globo u.f.o solo de buena onda... menos mal.";
         }

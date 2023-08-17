@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{   
+{
     public GameObject tableMessageEffect;
     public GameObject[] notes = null;
     [Header("Scripts")]
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     public Button[] style = null;      // Referencia a los botones de la mesa de DJ relacionados al estilo.
     [Header("Lights Buttons")]
     public Button[] lights = null;     // Referencia a los botones de la mesa de DJ relacionados a las luces.
-  
+
     [Header("Selected Percusion")]
     public int percussionSelected = 1;      // Variable que contiene el valor de la percusión seleccionada.
 
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
     public int lightsValue2 = 0;        // [confianza - aversión] Variable que contiene los valores de la perilla para controlar la luz 2.
     public int lightsValue3 = 0;        // [anticipación - sorpresa] Variable que contiene los valores de la perilla para controlar la luz 3.
     public int lightsValue4 = 0;        // [ira - miedo] Variable que contiene los valores de la perilla para controlar la luz 4.
-        
+
     [Header("Relationship Secrets")]
     public int identificador;
     public bool[] first;
@@ -71,19 +71,19 @@ public class GameManager : MonoBehaviour
     public bool ClassPresident_Friend_Sport; //14
     public bool Esoteric_Friend_ArtChic; //15
     public bool Esoteric_Love_Stoner; //16
-    
+
     [Header("Mision Secrets")]
-    public bool Mision1_Meteoro; //17
-    public bool Mision2_AgujeroNegro; //18
-    public bool Mision3_UFO; //19
+    public bool Mision1_Durmiendo; //17
+    public bool Mision2_GloboUFO; //18
+    public bool Mision3_Lonchera; //19
 
     [Header("Time Text")]
     public TextMeshProUGUI tiempo = null;
     private int timetotext;
-    
+
 
     [Header("Modifiable Times")]
-    public float timeSong;    
+    public float timeSong;
     public float timeLeftToStage2;
     public float timeLeftToStage3;
 
@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Destroy(gameObject);
         }
@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        timeSong = timeSong - 1 * Time.deltaTime;        
+        timeSong = timeSong - 1 * Time.deltaTime;
         timetotext = (int)timeSong;
         tiempo.text = timetotext.ToString();
 
@@ -122,13 +122,13 @@ public class GameManager : MonoBehaviour
         {
             stage = 2;
             notes[0].SetActive(true);
-        } 
+        }
 
         if (timeLeftToStage3 >= timeSong)
         {
             stage = 3;
             notes[1].SetActive(true);
-        } 
+        }
 
         if (timeSong <= 0)
         {
@@ -136,7 +136,7 @@ public class GameManager : MonoBehaviour
             timeSong = 242;
         }
 
-        if (identificador == 0) 
+        if (identificador == 0)
         {
             tableMessageEffect.SetActive(false);
         }
@@ -149,8 +149,8 @@ public class GameManager : MonoBehaviour
             first[0] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
-                  
+            tableMessageEffect.SetActive(true);
+
         }
 
         if (identificador == 2 && first[1] == false)
@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviour
             first[1] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 3 && first[2] == false)
@@ -168,7 +168,7 @@ public class GameManager : MonoBehaviour
             first[2] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 4 && first[3] == false)
@@ -177,7 +177,7 @@ public class GameManager : MonoBehaviour
             first[3] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 5 && first[4] == false)
@@ -186,7 +186,7 @@ public class GameManager : MonoBehaviour
             first[4] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 6 && first[5] == false)
@@ -195,7 +195,7 @@ public class GameManager : MonoBehaviour
             first[5] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 7 && first[6] == false)
@@ -204,7 +204,7 @@ public class GameManager : MonoBehaviour
             first[6] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 8 && first[7] == false)
@@ -213,7 +213,7 @@ public class GameManager : MonoBehaviour
             first[7] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 9 && first[8] == false)
@@ -222,7 +222,7 @@ public class GameManager : MonoBehaviour
             first[8] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 10 && first[9] == false)
@@ -231,7 +231,7 @@ public class GameManager : MonoBehaviour
             first[9] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 11 && first[10] == false)
@@ -240,7 +240,7 @@ public class GameManager : MonoBehaviour
             first[10] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 12 && first[11] == false)
@@ -249,7 +249,7 @@ public class GameManager : MonoBehaviour
             first[11] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 13 && first[12] == false)
@@ -258,7 +258,7 @@ public class GameManager : MonoBehaviour
             first[12] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 14 && first[13] == false)
@@ -267,7 +267,7 @@ public class GameManager : MonoBehaviour
             first[13] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 15 && first[14] == false)
@@ -276,7 +276,7 @@ public class GameManager : MonoBehaviour
             first[14] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 16 && first[15] == false)
@@ -285,49 +285,49 @@ public class GameManager : MonoBehaviour
             first[15] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 17 && first[16] == false)
         {
-            Mision1_Meteoro = true;      
+            Mision1_Durmiendo = true;
             first[16] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);          
+            tableMessageEffect.SetActive(true);
         }
-        
 
-        if (identificador == 18 && first[17] == false)
+
+        if (identificador == 18 && first[17] == false) //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         {
-            Mision2_AgujeroNegro = true;
+            Mision2_GloboUFO = true;
             first[17] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         if (identificador == 19 && first[18] == false)
         {
-            Mision3_UFO = true;
+            Mision3_Lonchera = true;
             first[18] = true;
             scratch.Play();
             //EFECTO
-            tableMessageEffect.SetActive(true);   
+            tableMessageEffect.SetActive(true);
         }
 
         /////// secretos que se descubren al tiro si se descubrió otro
 
-        if (Mision1_Meteoro == true)
+        if (Mision1_Durmiendo == true)
         {
             Sport_Friend_ClassPresident = true;
-            ClassPresident_Friend_Sport = true; 
+            ClassPresident_Friend_Sport = true;
         }
 
         if (PopularGirl_Friend_ClassPresident == true)
         {
             ClassPresident_Friend_PopularGirl = true;
-        }  
+        }
 
         if (ParkourBoy_Friend_ArtChic == true)
         {
@@ -337,7 +337,7 @@ public class GameManager : MonoBehaviour
         if (PopularGirl_Love_ArtChic == true)
         {
             ArtChic_Love_PopularGirl = true;
-        } 
+        }
 
         if (ArtChic_Friend_ParkourBoy == true)
         {
@@ -354,12 +354,17 @@ public class GameManager : MonoBehaviour
             PopularGirl_Friend_ClassPresident = true;
         }
 
-        if (Mision2_AgujeroNegro == true)
+       /* if (Mision2_GloboUFO == true) //////////////////////////////////////////////////////////////////////////// 
         {
-            Sport_Love_BandMember = true;
-            BandMember_Love_Sport = true;
+            PopularGirl_Love_ArtChic = true;
+            ArtChic_Love_PopularGirl = true;
+        } */
+
+        if (Mision3_Lonchera == true)
+        {
+            Stoner_Friend_Esoteric = true;
         }
-      
+
 
     }
 
