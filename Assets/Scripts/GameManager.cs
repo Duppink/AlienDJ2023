@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
     public bool ArtChic_Love_PopularGirl; //12
     public bool ClassPresident_Friend_PopularGirl; //13
     public bool ClassPresident_Friend_Sport; //14
-    public bool Esoteric_Friend_ArtChic; //15
+    public bool Esoteric_Friend_ArtChic; //15 //ArtChic_Friend_Esoteric (voy a ocupar 15 para este caso tb porque solución parche en vez de crear otro bool)
     public bool Esoteric_Love_Stoner; //16
 
     [Header("Mision Secrets")]
@@ -324,6 +324,11 @@ public class GameManager : MonoBehaviour
             ClassPresident_Friend_Sport = true;
         }
 
+        if (Mision3_Lonchera == true)
+        {
+            Stoner_Friend_Esoteric = true;
+        }
+
         if (PopularGirl_Friend_ClassPresident == true)
         {
             ClassPresident_Friend_PopularGirl = true;
@@ -354,17 +359,15 @@ public class GameManager : MonoBehaviour
             PopularGirl_Friend_ClassPresident = true;
         }
 
-       /* if (Mision2_GloboUFO == true) //////////////////////////////////////////////////////////////////////////// 
+        if (Sport_Love_BandMember == true)
         {
-            PopularGirl_Love_ArtChic = true;
-            ArtChic_Love_PopularGirl = true;
-        } */
-
-        if (Mision3_Lonchera == true)
-        {
-            Stoner_Friend_Esoteric = true;
+            BandMember_Love_Sport = true;
         }
 
+        if (BandMember_Love_Sport == true)
+        {
+            Sport_Love_BandMember = true;
+        }
 
     }
 
@@ -988,7 +991,7 @@ public class GameManager : MonoBehaviour
                 
     }*/
 
-    public void ClickOnLights3()        // Función que determina que se ha girado la perilla de luz 3.
+    public void ClickOnLights3()        // Función que determina que se ha apretado el switch 1
     {
         if (lightsValue3 == 0) 
         {
@@ -1029,7 +1032,7 @@ public class GameManager : MonoBehaviour
                 
     }
 
-    public void ClickOnLights4()        // Función que determina que se ha girado la perilla de luz 4.
+    public void ClickOnLights4()        // Función que determina que se ha apretado el switch 2
     {
         if (lightsValue4 == 0) 
         {

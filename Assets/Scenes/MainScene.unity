@@ -733,8 +733,9 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "La Ana andaba con mala cara en la casa.\r"
-    - "\xBFLe habr\xE1 pasado algo a mi hermana?\r"
-    - "Espero que sea algo temporal.\r"
+    - "\xBFTendr\xE1 que ver con lo que me quer\xEDa preguntar el otro d\xEDa?\r"
+    - "Espero que no le haya pasado nada malo. Encuentro raro que se haya arrepentido
+      de preguntarme sea lo que sea.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 24005698}
   ImpoSecre2: {fileID: 0}
@@ -1285,9 +1286,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - En el centro hay caleta de spots que quiero visitar.
-    - "En Los H\xE9roes est\xE1 lleno de muros y parques para hacer parkour."
-    - "No he practicado desde que llegu\xE9 a Chile. He estado muy ocupado.\r"
+    - "En mi escuela en Madrid no hab\xEDa tantos lugares para hacer parkour como
+      en esta. Hay muchos \xE1rboles, muros y barras a las que a\xFAn no trepo.\r"
+    - "Puede que si me subo al Olmo de la entrada llegue al tercer piso donde est\xE1
+      la sala de maestros. Espero que el Choripan no me vea o si no va se va a poner
+      cabr\xF3n."
+    - "No he practicado desde que llegu\xE9 a Chile, el tiempo ha estado escaso.
+      He estado muy ocupado con la mudanza y el negocio de la familia.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -1570,9 +1575,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Casi no vine al evento del curso.\r"
-    - "Iba a tener pr\xE1ctica con la banda pero los muy pavos se quedaron raja.\r"
-    - "La cago s\xED, el Marci es seco tocando."
+    - "Casi no vine al evento del curso, pero si no ven\xEDa en vol\xE1 alguien se
+      pasaba el rollo de que yo me rob\xE9 la plata, as\xED que mejor vengo por cualquier
+      cosa.\r"
+    - "Iba a tener pr\xE1ctica con la banda pero a los muy pavos se les perdi\xF3
+      la llave de la sala de m\xFAsica. Van a tener que cambiar la chapa y ah\xED
+      reci\xE9n podremos volver a tocar.\r"
+    - "Debe cachar harto de m\xFAsica el Marci s\xED, es seco tocando. En vol\xE1
+      le pedimos que haga una colaboraci\xF3n con nosotros, quedar\xEDa bac\xE1n.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -1712,15 +1722,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Seguramente el Benja me mando el globo.\r"
-    - "Que es we\xF3n, se est\xE1 buscando un wate.\r"
+    - "Seguramente el Benja me mando el globo, no imagino qui\xE9n m\xE1s podr\xEDa
+      haber sido.\r"
+    - "Boludo, se est\xE1 buscando un wate de aquellos."
+    - "Igual lo ech\xE9 harto de menos, ojal\xE1 no se mande otra cagada por la que
+      lo suspendan. Aqu\xED pareciera que hay profesores con bipolaridad, un d\xEDa
+      son tus amigos y otro son como la polic\xEDa.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 163107071}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
   ClickedEffect: {fileID: 706868201}
-  nis: {fileID: 163107071}
+  nis: {fileID: 0}
 --- !u!33 &163107070
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1738,11 +1752,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 163107065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cb: {fileID: 229372464}
   gm: {fileID: 834203629}
-  identificadorMensaje: 0
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 3
 --- !u!1 &187540099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,10 +2045,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "La Sofi quiere que la vaya a acompa\xF1ar a la librer\xEDa a comprar oleos.\r"
-    - "Creo que le debe uno a un loco del taller de artes.\r"
-    - "Despu\xE9s vamos a ir a comer mariscos al mercado central, ya ten\xEDa muchas
-      ganas de salir.\r"
+    - "La Sofi quiere que la acompa\xF1e a la librer\xEDa a comprar \xF3leos, son
+      re caras las pinturas.\r"
+    - "Creo que le debe uno a un loco del taller de artes adem\xE1s, seguro se le
+      fue llevar a la muy despistada.\r"
+    - "Despu\xE9s vamos a ir a comer mariscos cerca de mi casa, ya ten\xEDa muchas
+      ganas de salir despu\xE9s de lo que pas\xF3.\r"
+    - "Tengo ganas de contarle a la Sofi, pero no s\xE9 qu\xE9 me dir\xE1. No creo
+      que me vaya a juzgar pero igual fue cagazo hacer la cimarra.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 204740761}
   ImpoSecre2: {fileID: 0}
@@ -2082,7 +2103,7 @@ MonoBehaviour:
   cb: {fileID: 1485499630}
   gm: {fileID: 834203629}
   SP: 1
-  Stage: 1
+  Stage: 2
   identificadorMensaje: 15
 --- !u!1 &209015765
 GameObject:
@@ -2875,9 +2896,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Casi no vine al evento del curso.\r"
-    - "Iba a tener pr\xE1ctica con la banda pero los muy pavos se quedaron raja.\r"
-    - "La cago s\xED, el Marci es seco tocando."
+    - "Casi no vine al evento del curso, pero si no ven\xEDa en vol\xE1 alguien se
+      pasaba el rollo de que yo me rob\xE9 la plata, as\xED que mejor vengo por cualquier
+      cosa.\r"
+    - "Iba a tener pr\xE1ctica con la banda pero a los muy pavos se les perdi\xF3
+      la llave de la sala de m\xFAsica. Van a tener que cambiar la chapa y ah\xED
+      reci\xE9n podremos volver a tocar.\r"
+    - "Debe cachar harto de m\xFAsica el Marci s\xED, es seco tocando. En vol\xE1
+      le pedimos que haga una colaboraci\xF3n con nosotros, quedar\xEDa bac\xE1n.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -3128,9 +3154,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "No me aguant\xE9\u2026\r"
-    - "\xA1Y le d\xED un beso a Sofi en su balc\xF3n!\r"
-    - Espero que no le haya incomodado.
+    - "Est\xE1n buen\xEDsimos los temas del Marci, no sabr\xEDa decirte qu\xE9 genero
+      de musica es pero est\xE1 de pana. D\xF3nde habr\xE1 aprendido a tocar este
+      weon, o qui\xE9n le habr\xE1 ense\xF1ado...\r"
+    - "Igual me gustar\xEDa conversar m\xE1s con \xE9l pero no he encontrado una
+      buena oportunidad, pens\xE9 que lo del globo me iba a ayudar. \xBFHabr\xE1
+      cachado que fui yo la que se lo mand\xF3? \r"
+    - "Capaz que tanta sutileza ya no est\xE1 funcionando."
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 287273368}
@@ -3162,7 +3192,7 @@ MonoBehaviour:
   gm: {fileID: 834203629}
   SP: 2
   Stage: 3
-  identificadorMensaje: 8
+  identificadorMensaje: 18
 --- !u!1 &291030138
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,11 +3303,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Menos mal Mar conoc\xEDa un spot donde comer.\r"
-    - "Conoce de muchas cosas aunque ande corriendo todo el d\xEDa, incluso de buena
-      comida."
+    - "Menos mal Mar me dijo que conoce un carrito de comida vegana que cierra tarde
+      y est\xE1 cerca. Me va a apa\xF1ar despu\xE9s del carrete.\r"
+    - "Conoce de muchas cosas Conoce muchos lugares a pesar de que ande corriendo
+      todo el d\xEDa, no s\xE9 como le da el tiempo\u2026 o las ganas."
     - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
-      comemos juntos."
+      comemos juntos.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 291030144}
   ImpoSecre2: {fileID: 0}
@@ -3594,11 +3625,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Menos mal Mar conoc\xEDa un spot donde comer.\r"
-    - "Conoce de muchas cosas aunque ande corriendo todo el d\xEDa, incluso de buena
-      comida."
+    - "Menos mal Mar me dijo que conoce un carrito de comida vegana que cierra tarde
+      y est\xE1 cerca. Me va a apa\xF1ar despu\xE9s del carrete.\r"
+    - "Conoce muchos lugares a pesar de que ande corriendo todo el d\xEDa, no s\xE9
+      como le da el tiempo\u2026 o las ganas.\r"
     - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
-      comemos juntos."
+      comemos juntos.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 336656879}
   ImpoSecre2: {fileID: 0}
@@ -4110,9 +4142,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Tengo ganas de ir a Valpo y conocer.\r"
-    - "La Sofi que es porte\xF1a me dijo que hay murales y estructuras bacanes."
-    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle despu\xE9s
+    - "Tengo ganas de ir a la playa y ojal\xE1 conocer algo nuevo, capaz es momento
+      de escalar alguna monta\xF1a o colina.\r"
+    - "La Sofi me dijo que de donde ella viene es precioso, lleno de verde y donde
+      caminar adem\xE1s.\r"
+    - "Podr\xEDamos ir juntos con Ana, pero me da plancha preguntarle a Ana despu\xE9s
       de lo que pas\xF3\u2026\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 392724384}
@@ -4289,8 +4323,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427923815}
-  - component: {fileID: 427923821}
   - component: {fileID: 427923819}
+  - component: {fileID: 427923821}
   - component: {fileID: 427923818}
   - component: {fileID: 427923817}
   - component: {fileID: 427923816}
@@ -4392,11 +4426,14 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Puta el Antonio\u2026\r"
-    - "Uno le manda weas rom\xE1nticas y ni se inmuta."
+    - "No s\xE9 pa\u2019 qu\xE9 me gast\xE9 en mandarle el globo del agujero negro,
+      ya no s\xE9 c\xF3mo m\xE1s decirle que me atrae caleta.\r"
+    - "Uno le manda we\xE1s rom\xE1nticas y ni se inmuta, es como si en la vida no
+      le sorprendiera nada.\r"
     - "A veces creo que se cree due\xF1o del mundo con su confianza culi\xE1, lo
       amo pero lo odio.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 427923821}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
@@ -4436,11 +4473,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 427923814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cb: {fileID: 229372464}
   gm: {fileID: 834203629}
-  identificadorMensaje: 0
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 4
 --- !u!1 &431444970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5207,10 +5247,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "La Sofi quiere que la vaya a acompa\xF1ar a la librer\xEDa a comprar oleos.\r"
-    - "Creo que le debe uno a un loco del taller de artes.\r"
-    - "Despu\xE9s vamos a ir a comer mariscos al mercado central, ya ten\xEDa muchas
-      ganas de salir.\r"
+    - "La Sofi quiere que la acompa\xF1e a la librer\xEDa a comprar \xF3leos, son
+      re caras las pinturas.\r"
+    - "Creo que le debe uno a un loco del taller de artes adem\xE1s, seguro se le
+      fue llevar a la muy despistada.\r"
+    - "Despu\xE9s vamos a ir a comer mariscos cerca de mi casa, ya ten\xEDa muchas
+      ganas de salir despu\xE9s de lo que pas\xF3.\r"
+    - "Tengo ganas de contarle a la Sofi, pero no s\xE9 qu\xE9 me dir\xE1. No creo
+      que me vaya a juzgar pero igual fue cagazo hacer la cimarra.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 514332048}
   ImpoSecre2: {fileID: 0}
@@ -5688,9 +5732,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Menos mal vino este we\xF3n. \t\r"
-    - "El Benja alegra cualquier ambiente y necesitaba un descanso.\r"
-    - "Como presidente de curso tiene que estar en hartas asambleas pajeras.\r"
+    - "Menos mal vino este we\xF3n, lo extra\xF1aba ya. "
+    - "El Benja alegra cualquier ambiente y necesitaba un descanso de tanta mala
+      suerte.\r"
+    - "Como presidente de curso adem\xE1s tiene que estar en hartas asambleas pajeras.\r"
+    - "El Chorip\xE1n culiao le ten\xEDa sangre en el ojo al pobre desde hace rato,
+      hasta que consigui\xF3 calzarlo con algo, por muy idiota que haya sido. Pero
+      bueno, a todo marrano le llega su noche buena.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 566843445}
   ImpoSecre2: {fileID: 0}
@@ -6119,15 +6167,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Seguramente el Benja me mando el globo.\r"
-    - "Que es we\xF3n, se est\xE1 buscando un wate.\r"
+    - "Seguramente el Benja me mando el globo, no imagino qui\xE9n m\xE1s podr\xEDa
+      haber sido.\r"
+    - "Boludo, se est\xE1 buscando un wate de aquellos."
+    - "Igual lo ech\xE9 harto de menos, ojal\xE1 no se mande otra cagada por la que
+      lo suspendan. Aqu\xED pareciera que hay profesores con bipolaridad, un d\xEDa
+      son tus amigos y otro son como la polic\xEDa.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 588169676}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
   ClickedEffect: {fileID: 706868201}
-  nis: {fileID: 588169676}
+  nis: {fileID: 0}
 --- !u!33 &588169675
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6145,11 +6197,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 588169670}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cb: {fileID: 229372464}
   gm: {fileID: 834203629}
-  identificadorMensaje: 0
+  SP: 1
+  Stage: 2
+  identificadorMensaje: 3
 --- !u!1 &615401227
 GameObject:
   m_ObjectHideFlags: 0
@@ -6478,9 +6533,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Ayer quedamos con Yuet de ir a una librer\xEDa en la semana.\r"
-    - "Me tinca una que est\xE1 en la Alameda.\r"
-    - "Creo que se llamaba Biblioteca Nacional de Chile. \r"
+    - "\xA1Arre yaar!\r"
+    - "Menos mal la Yuet me prest\xF3 ropa con el cagazo y se qued\xF3 piola, en
+      verdad es una de mis mejores amigas.\r"
+    - "Nunca m\xE1s hago la cimarra pa\u2019 una we\xE1 tan est\xFApida como ir a
+      tomar caf\xE9 al Starbucks.\r"
+    - "Ni me acord\xE9 que ten\xEDamos prueba a la siguiente hora y la Yuet tampoco.
+      Cuando nos dimos cuenta nos fuimos r\xE1pido. Ni cachamos que la lonchera se
+      nos qued\xF3 y justo ah\xED hab\xEDa metido la alcanc\xEDa con la plata de
+      los globos.\r"
+    - Yo cacho que cuando se calmen las cosas voy a contarlo y pedir disculpas en
+      consejo de curso.
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 641034033}
@@ -6663,17 +6726,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Weon coqueto, igual me lo pololeo.
-    - "Me manda un globo as\xED y sonr\xEDe como siempre.\r"
+    - "Qu\xE9 tipo m\xE1s coqueto.\r"
+    - "Me manda un globo as\xED y sonr\xEDe como siempre, cero sutil.\r"
     - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
-      haciendo el loco para ver como reacciona. "
+      haciendo el loco para ver c\xF3mo reacciona, vamos a ver si aprieto algunos
+      de sus botones con eso. \r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 650553725}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
   ClickedEffect: {fileID: 706868201}
-  nis: {fileID: 650553725}
+  nis: {fileID: 0}
 --- !u!33 &650553724
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6691,11 +6755,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 650553719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cb: {fileID: 1325877906}
   gm: {fileID: 834203629}
-  identificadorMensaje: 0
+  SP: 2
+  Stage: 3
+  identificadorMensaje: 10
 --- !u!1 &665032351
 GameObject:
   m_ObjectHideFlags: 0
@@ -7338,9 +7405,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - En el centro hay caleta de spots que quiero visitar.
-    - "En Los H\xE9roes est\xE1 lleno de muros y parques para hacer parkour."
-    - "No he practicado desde que llegu\xE9 a Chile. He estado muy ocupado.\r"
+    - "En mi escuela en Madrid no hab\xEDa tantos lugares para hacer parkour como
+      en esta. Hay muchos \xE1rboles, muros y barras a las que a\xFAn no trepo.\r"
+    - "Puede que si me subo al Olmo de la entrada llegue al tercer piso donde est\xE1
+      la sala de maestros. Espero que el Choripan no me vea o si no va se va a poner
+      cabr\xF3n."
+    - "No he practicado desde que llegu\xE9 a Chile, el tiempo ha estado escaso.
+      He estado muy ocupado con la mudanza y el negocio de la familia.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -13184,9 +13255,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Ya me cans\xE9, igual me ir\xEDa pa\u2019 la casa."
-    - "Me mov\xED caleta en el partido de hoy."
-    - "Con cuea me dio tiempo para ducharme.\r"
+    - "Ya me cans\xE9, igual me ir\xEDa pa\u2019 la casa.\r"
+    - "Me mov\xED caleta en el partido de hoy, corriendo de arco a arco como campe\xF3n.\r"
+    - "Con cuea me dio tiempo para ducharme, ojal\xE1 no est\xE9 pasado a ala\u2026
+      \r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -13454,9 +13526,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Estoy ansioso weon.\r"
-    - "Esta semana voy a cletear a Lo V\xE1squez."
-    - "Ese d\xEDa no estoy ni ah\xED con las weas de las asambleas.\r"
+    - "Estoy ansioso weon, la anticipaci\xF3n me mata.\r"
+    - "Esta semana es el concierto del Juan25, va a estar pal picooo.\r"
+    - "Ese dia no estoy ni ah\xED con las weas de las asambleas, yo voy s\xED o s\xED.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -14400,9 +14472,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Tengo ganas de ir a la playa donde mis viejos.\r"
-    - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo.\r"
-    - "Tengo que agendarlo para hacer calzar mis tiempos. \r"
+    - "Tengo ganas de ir a la playa donde mis viejos en Puc\xF3n. Hace rato que no
+      los veo, desde las vacaciones m\xE1s o menos.\r"
+    - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo,
+      as\xED aprovecha de conocer.\r"
+    - "Tengo que agendarlo para hacer calzar mis tiempos.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 899343546}
@@ -15347,8 +15421,14 @@ MonoBehaviour:
     arrayTextos:
     - "\xA1Wuajajajajajs!\r"
     - "La cara de L\xF3pez cuando recibi\xF3 el globo meteorito que encargu\xE9 fue
-      pal pico."
-    - "\xBFMe pregunto si el we\xF3n se dio cuenta que fui yo? Dem\xE1s. "
+      pal pico.\r"
+    - "\xBFMe pregunto si el we\xF3n se dio cuenta que fui yo? Dem\xE1s, si ese igual
+      es v\xEDo\u2019. \r"
+    - "Ha sido puro webeo este mes. Ohhh pero nunca voy a superar la sac\xE1 de chucha
+      del Chorip\xE1n culiao. Si tengo que ser suspendido de nuevo por hablar we\xE1s
+      \u201Cobscenas\u201D para volverlo a ver de hocico al suelo hasta pago.\r"
+    - "Qu\xE9 lata que justo el Marci taba raja, lo hubiese visto en primera plana,
+      si la we\xE1 pas\xF3 encuadr\xE1 en su ventana. \r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 993104302}
   ImpoSecre2: {fileID: 0}
@@ -15491,9 +15571,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Tengo ganas de ir a Valpo y conocer.\r"
-    - "La Sofi que es porte\xF1a me dijo que hay murales y estructuras bacanes."
-    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle despu\xE9s
+    - "Tengo ganas de ir a la playa y ojal\xE1 conocer algo nuevo, capaz es momento
+      de escalar alguna monta\xF1a o colina.\r"
+    - "La Sofi me dijo que de donde ella viene es precioso, lleno de verde y donde
+      caminar adem\xE1s.\r"
+    - "Podr\xEDamos ir juntos con Ana, pero me da plancha preguntarle a Ana despu\xE9s
       de lo que pas\xF3\u2026\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 1006897282}
@@ -16729,9 +16811,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Puta la wea\u2026\r"
-    - "\xA1El otro d\xEDa vi a la Ana bes\xE1ndose con otra loca!"
-    - "Me hizo pico verlo, y ni cach\xE9 con qui\xE9n era\u2026"
+    - "Urgh, qu\xE9 situaci\xF3n de mierda.\r"
+    - "Yo muy en la m\xEDa buscando un lugar para trepar, pensando en quiz\xE1s qu\xE9
+      cosa y de la nada veo de lejos a la Ana bes\xE1ndose con una t\xEDa. Por la
+      cara.\r"
+    - "Me doli\xF3 verlo y ni supe con qui\xE9n era\u2026 No me puedo sacar esa imagen
+      de la cabeza.\r"
+    - "Por lo menos ellas no me vieron.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1132426427}
@@ -16874,12 +16960,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Ayer me le\xED el tarot, durante la luna llena para que sea m\xE1s inmersivo.\r"
+    - "Ayer me le\xED el tarot durante la luna llena para que fuese m\xE1s inmersivo.\r"
     - "Una de las cartas hablaba de un extranjero fuera de lo com\xFAn que podr\xEDa
       llegar a mi vida.\r"
-    - "Siento esa presencia aqu\xED\u2026\r"
-    - ...
-    - "\xBFHola?"
+    - "Siento esa presencia especial\u2026\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -17019,17 +17103,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - Weon coqueto, igual me lo pololeo.
-    - "Me manda un globo as\xED y sonr\xEDe como siempre.\r"
+    - "Qu\xE9 tipo m\xE1s coqueto."
+    - "Me manda un globo as\xED y sonr\xEDe como siempre, cero sutil."
     - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
-      haciendo el loco para ver como reacciona. "
+      haciendo el loco para ver c\xF3mo reacciona, vamos a ver si aprieto algunos
+      de sus botones con eso. \r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1153905711}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
   ClickedEffect: {fileID: 706868201}
-  nis: {fileID: 1153905711}
+  nis: {fileID: 0}
 --- !u!33 &1153905710
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17047,11 +17132,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1153905705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cb: {fileID: 1325877906}
   gm: {fileID: 834203629}
-  identificadorMensaje: 0
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 10
 --- !u!1 &1154037101
 GameObject:
   m_ObjectHideFlags: 0
@@ -17335,8 +17423,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203977330}
-  - component: {fileID: 1203977335}
   - component: {fileID: 1203977334}
+  - component: {fileID: 1203977335}
   - component: {fileID: 1203977333}
   - component: {fileID: 1203977332}
   - component: {fileID: 1203977331}
@@ -17436,9 +17524,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Menos mal vino este we\xF3n. \t\r"
-    - "El Benja alegra cualquier ambiente y necesitaba un descanso.\r"
-    - "Como presidente de curso tiene que estar en hartas asambleas pajeras.\r"
+    - "Menos mal vino este we\xF3n, lo extra\xF1aba ya. "
+    - "El Benja alegra cualquier ambiente y necesitaba un descanso de tanta mala
+      suerte.\r"
+    - "Como presidente de curso adem\xE1s tiene que estar en hartas asambleas pajeras.\r"
+    - "El Chorip\xE1n culiao le ten\xEDa sangre en el ojo al pobre desde hace rato,
+      hasta que consigui\xF3 calzarlo con algo, por muy idiota que haya sido. Pero
+      bueno, a todo marrano le llega su noche buena.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 566843445}
   ImpoSecre2: {fileID: 0}
@@ -17863,12 +17955,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Ayer me le\xED el tarot, durante la luna llena para que sea m\xE1s inmersivo.\r"
+    - "Ayer me le\xED el tarot durante la luna llena para que fuese m\xE1s inmersivo.\r"
     - "Una de las cartas hablaba de un extranjero fuera de lo com\xFAn que podr\xEDa
       llegar a mi vida.\r"
-    - "Siento esa presencia aqu\xED\u2026\r"
+    - "Siento esa presencia especial\u2026\r"
     - ...
-    - "\xBFHola?"
+    - "\xBFEst\xE1s aqu\xED?\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -18228,8 +18320,8 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Estoy cagao de hambre.\r"
-    - "Hoy adem\xE1s se me hab\xEDa quedado el almuerzo en la casa.\r"
-    - "Pura mala cuea, y en el curso nadie trajo algo vegetariano para pechar.\r"
+    - "No pens\xE9 que la we\xE1 de la lonchera me iba a cagar tanto. \r"
+    - "Adi\xF3s garbanzos, uno nunca sabe lo que tiene hasta que lo pierde.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -18513,17 +18605,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Hoy en artes se me acab\xF3 el oleo amarillo. \r"
-    - "Tuve que pedir prestado y lo us\xE9 casi todo."
+    - "Hoy en artes se me acab\xF3 el oleo amarillo mostaza, lo use harto en casa
+      y se me fue comprar otro antes. \r"
+    - "Tuve que pedir prestado y lo us\xE9 casi todo, espero que no se haya sentido
+      mal por haberlo usado entero\u2026 \r"
     - "Le debo a esa alma caritativa un repuesto, pero la pintura de las frutas me
       qued\xF3 bac\xE1n seg\xFAn la profe. "
+    - "La Yuet me va a acompa\xF1ar pronto a la librer\xEDa a comprar uno para m\xED
+      y para el amigo de artes. \r"
+    - "Voy a aprovechar de preguntarle por qu\xE9 lleg\xF3 tan tarde con el Ali.
+      Quiz\xE1s les pas\xF3 algo estando juntos y no han querido decir. Igual me
+      preocupan, en vol\xE1 hasta los asaltaron.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1363415667}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
   ClickedEffect: {fileID: 706868201}
-  nis: {fileID: 1363415667}
+  nis: {fileID: 0}
 --- !u!33 &1363415666
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18541,11 +18640,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1363415661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cb: {fileID: 1061935568}
   gm: {fileID: 834203629}
-  identificadorMensaje: 0
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 15
 --- !u!1 &1370064389
 GameObject:
   m_ObjectHideFlags: 0
@@ -19335,9 +19437,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Estoy ansioso weon.\r"
-    - "Esta semana voy a cletear a Lo V\xE1squez."
-    - "Ese d\xEDa no estoy ni ah\xED con las weas de las asambleas.\r"
+    - "Estoy ansioso weon, la anticipaci\xF3n me mata.\r"
+    - "Esta semana es el concierto del Juan25, va a estar pal picooo.\r"
+    - "Ese dia no estoy ni ah\xED con las weas de las asambleas, yo voy s\xED o s\xED.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -19731,9 +19833,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Con la Ana pens\xE1bamos ir a un concierto. \r"
-    - Pronto se viene el de la Princesa Alba.
-    - Ni cagando nos la perdemos.
+    - "Con la Ana pens\xE1bamos ir a un concierto. Alguna we\xE1 bomba, bien movida.\r"
+    - "Pronto se viene el de Princesa Alba. Eso va estar br\xEDgidooo.\r"
+    - "Ni cagando nos la perdemos, aunque sea en per\xEDodo de clases.\r"
+    - "Me encanta que con la Ana seamos igual de detonaos\u2019.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1471302304}
@@ -20404,8 +20507,8 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Estoy cagao de hambre.\r"
-    - "Hoy adem\xE1s se me hab\xEDa quedado el almuerzo en la casa.\r"
-    - "Pura mala cuea, y en el curso nadie trajo algo vegetariano para pechar.\r"
+    - "No pens\xE9 que la we\xE1 de la lonchera me iba a cagar tanto. \r"
+    - "Adi\xF3s garbanzos, uno nunca sabe lo que tiene hasta que lo pierde.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -22179,10 +22282,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Est\xE1n buenisimos los temas del Marci.\r"
-    - "Hmm.\r"
-    - "\xBFSabr\xE1 que yo le mand\xE9 el globo?\r"
-    - "Era en la buena onda, pero c\xF3mo va a cachar que fui yo.\r"
+    - "\xA1Me da mucha verg\xFCenza acordarme de esta we\xE1!\r"
+    - "Casi siempre soy yo la que espera, pero no me aguant\xE9. Sent\xED que el
+      momento era perfe, est\xE1bamos muy cerca, no hab\xEDa nadie en el cuarto piso
+      y solo lo hice.\r"
+    - "Me lanc\xE9 y le di un piquito a la Sofi, nos miramos un rato, pero cuando
+      son\xF3 el timbre la Sofi al tiro se fue, no me dijo nada.\r"
+    - "Qued\xE9 super confundida, no entiendo ni c\xF3mo se sinti\xF3.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -24098,17 +24204,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Hoy en artes se me acab\xF3 el oleo amarillo. \r"
-    - "Tuve que pedir prestado y lo us\xE9 casi todo."
+    - "Hoy en artes se me acab\xF3 el oleo amarillo mostaza, lo use harto en casa
+      y se me fue comprar otro antes. \r"
+    - "Tuve que pedir prestado y lo us\xE9 casi todo, espero que no se haya sentido
+      mal por haberlo usado entero\u2026 \r"
     - "Le debo a esa alma caritativa un repuesto, pero la pintura de las frutas me
       qued\xF3 bac\xE1n seg\xFAn la profe. "
+    - "La Yuet me va a acompa\xF1ar pronto a la librer\xEDa a comprar uno para m\xED
+      y para el amigo de artes. \r"
+    - "Voy a aprovechar de preguntarle por qu\xE9 lleg\xF3 tan tarde con el Ali.
+      Quiz\xE1s les pas\xF3 algo estando juntos y no han querido decir. Igual me
+      preocupan, en vol\xE1 hasta los asaltaron.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1885050298}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
   IsClicked: 0
   ClickedEffect: {fileID: 706868201}
-  nis: {fileID: 1885050298}
+  nis: {fileID: 0}
 --- !u!33 &1885050297
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24126,11 +24239,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1885050292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6da46e80e39c6c7479b773fdc4381314, type: 3}
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cb: {fileID: 1061935568}
   gm: {fileID: 834203629}
-  identificadorMensaje: 0
+  SP: 1
+  Stage: 2
+  identificadorMensaje: 15
 --- !u!1 &1886448350
 GameObject:
   m_ObjectHideFlags: 0
@@ -24140,8 +24256,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886448351}
-  - component: {fileID: 1886448356}
   - component: {fileID: 1886448355}
+  - component: {fileID: 1886448356}
   - component: {fileID: 1886448354}
   - component: {fileID: 1886448353}
   - component: {fileID: 1886448352}
@@ -24242,7 +24358,10 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Puta el Antonio\u2026\r"
-    - "Uno le manda weas rom\xE1nticas y ni se inmuta."
+    - "No s\xE9 pa\u2019 qu\xE9 me gast\xE9 en mandarle el globo del agujero negro,
+      ya no s\xE9 c\xF3mo m\xE1s decirle que me atrae caleta.\r"
+    - "Uno le manda we\xE1s rom\xE1nticas y ni se inmuta, es como si en la vida no
+      le sorprendiera nada.\r"
     - "A veces creo que se cree due\xF1o del mundo con su confianza culi\xE1, lo
       amo pero lo odio.\r"
   controlDialogos: {fileID: 1628390330}
@@ -24272,11 +24391,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cb: {fileID: 1017164913}
+  cb: {fileID: 229372464}
   gm: {fileID: 834203629}
   SP: 2
   Stage: 3
-  identificadorMensaje: 1
+  identificadorMensaje: 4
 --- !u!1 &1894832492
 GameObject:
   m_ObjectHideFlags: 0
@@ -25051,9 +25170,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "No hablamos desde ayer.\r"
-    - "Me qued\xE9 congelada despu\xE9s de que Ana me diera un beso.\r"
-    - "No es que no me gustara, solo que no s\xE9 que hacer.\r"
+    - "No hablamos desde ayer\u2026\r"
+    - "Me qued\xE9 congelada despu\xE9s de que la Ana me diera un beso.\r"
+    - "No es que no me gustara, solo que no s\xE9 qu\xE9 hacer, no s\xE9 c\xF3mo
+      reaccionar con este tipo de cosas.\r"
+    - "Cuando son\xF3 la campana solo atin\xE9 a irme, entr\xE9 como en piloto autom\xE1tico.\r"
+    - "Necesito hablar con ella, hay harto que en verdad no entiendo.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -25477,9 +25599,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Quer\xEDa salir hace rato con el Ali."
-    - "Yo quer\xEDa ir a algo m\xE1s lindo como un parque.\r"
-    - "Pero qued\xF3 en ir a una librer\xEDa en el Centro.\r"
+    - "Quer\xEDa salir hace rato con el Ali.\r"
+    - "Nunca hab\xEDa cimarreado y estaba demasiado contenta y a la vez nerviosa
+      de que fuera con \xE9l. Pero lo de la prueba arruin\xF3 todo.\r"
+    - "Ahora que pas\xF3 todo esto el Ali anda preocupado y se me va a hacer m\xE1s
+      dif\xEDcil que salgamos los dos solos otra vez."
+    - "El mundo conspira contra m\xED o simplemente tengo una p\xE9sima suerte.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1993513247}
@@ -25789,9 +25914,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "No me aguant\xE9\u2026\r"
-    - "\xA1Y le d\xED un beso a Sofi en su balc\xF3n!\r"
-    - Espero que no le haya incomodado.
+    - "Est\xE1n buen\xEDsimos los temas del Marci, no sabr\xEDa decirte qu\xE9 genero
+      de musica es pero est\xE1 de pana. D\xF3nde habr\xE1 aprendido a tocar este
+      weon, o qui\xE9n le habr\xE1 ense\xF1ado...\r"
+    - "Igual me gustar\xEDa conversar m\xE1s con \xE9l pero no he encontrado una
+      buena oportunidad, pens\xE9 que lo del globo me iba a ayudar. \xBFHabr\xE1
+      cachado que fui yo la que se lo mand\xF3? \r"
+    - "Capaz que tanta sutileza ya no est\xE1 funcionando.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 2094693333}
@@ -25934,9 +26063,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Tengo ganas de ir a la playa donde mis viejos.\r"
-    - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo.\r"
-    - "Tengo que agendarlo para hacer calzar mis tiempos. \r"
+    - "Tengo ganas de ir a la playa donde mis viejos en Puc\xF3n. Hace rato que no
+      los veo, desde las vacaciones m\xE1s o menos.\r"
+    - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo,
+      as\xED aprovecha de conocer.\r"
+    - "Tengo que agendarlo para hacer calzar mis tiempos.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 2101034222}
@@ -26082,7 +26213,13 @@ MonoBehaviour:
     - "\xA1Wuajajajajajs!\r"
     - "La cara de L\xF3pez cuando recibi\xF3 el globo meteorito que encargu\xE9 fue
       pal pico."
-    - "\xBFMe pregunto si el we\xF3n se dio cuenta que fui yo? Dem\xE1s. "
+    - "\xBFMe pregunto si el we\xF3n se dio cuenta que fui yo? Dem\xE1s, si ese igual
+      es v\xEDo\u2019. \r"
+    - "Ha sido puro webeo este mes. Ohhh pero nunca voy a superar la sac\xE1 de chucha
+      del Chorip\xE1n culiao. Si tengo que ser suspendido de nuevo por hablar we\xE1s
+      \u201Cobscenas\u201D para volverlo a ver de hocico al suelo hasta pago.\r"
+    - "Qu\xE9 lata que justo el Marci taba raja, lo hubiese visto en primera plana,
+      si la we\xE1 pas\xF3 encuadr\xE1 en su ventana. \r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 2101109845}
   ImpoSecre2: {fileID: 0}
@@ -26110,7 +26247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cb: {fileID: 229372464}
+  cb: {fileID: 1750288912}
   gm: {fileID: 834203629}
   SP: 1
   Stage: 2
