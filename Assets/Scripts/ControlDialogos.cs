@@ -10,6 +10,7 @@ public class ControlDialogos : MonoBehaviour
     Textos texto; 
     //public GameObject cartel;
     [SerializeField] TextMeshProUGUI textoPantalla;
+    public GameObject backgroundTexto;
 
     //public Image cloud;
 
@@ -22,6 +23,7 @@ public class ControlDialogos : MonoBehaviour
     public void ActivarCartel(Textos textoObjeto)
     {
         gameObject.SetActive(true);
+        backgroundTexto.SetActive(true);
         texto = textoObjeto;
         ActivaTexto();
         
@@ -51,7 +53,10 @@ public class ControlDialogos : MonoBehaviour
 
     public void CierraCartel()
     {
-        gameObject.transform.position = new Vector3 (0,-138,0);
+        textoPantalla.text = "";
+        //gameObject.SetActive(false);
+        backgroundTexto.SetActive(false);
+        //gameObject.transform.position = new Vector3 (0,-138,0);
         //cloud.enabled = false;
     }
 }

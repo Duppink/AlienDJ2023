@@ -45,7 +45,7 @@ public class ObjetoInteractuable : MonoBehaviour
             ImpoSecre3.CheckForImportantMessage();
         }
 
-        controlDialogos.position = new Vector3(1000, 365, 0);
+        //controlDialogos.position = new Vector3(1000, 365, 0);
         //cloud.enabled = !cloud.enabled;
         FindObjectOfType<ControlDialogos>().ActivarCartel(textos);  
 
