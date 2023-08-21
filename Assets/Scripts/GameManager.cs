@@ -110,7 +110,7 @@ public class GameManager : MonoBehaviour
     {
         scratch.clip = scratchClip;
     }
-
+       
 
     void Update()
     {
@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour
 
         if (timeLeftToStage2 >= timeSong)
         {
-            stage = 2;
+            stage = 2;         
             notes[0].SetActive(true);
         }
 
