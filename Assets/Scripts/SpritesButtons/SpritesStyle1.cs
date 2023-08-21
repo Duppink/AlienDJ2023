@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
 
 public class SpritesStyle1 : MonoBehaviour
 {
@@ -15,17 +17,20 @@ public class SpritesStyle1 : MonoBehaviour
     {
         if (gm.style1 == true)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = styleOn;
+            gameObject.GetComponent<Image>().sprite = styleOn;
+            //gameObject.GetComponent<SpriteRenderer>().sprite = styleOn;
         }
 
         if (gm.style1 == false)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = styleOff;
+            gameObject.GetComponent<Image>().sprite = styleOff;
+            //gameObject.GetComponent<SpriteRenderer>().sprite = styleOff;
         }
         
         if (ib.enabledButton == false)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
+            gameObject.GetComponent<Image>().sprite = buttonDisabled;
+            //gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
         }
 
     }

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
 
 public class SpritesLightsColors : MonoBehaviour
 {
@@ -22,32 +24,32 @@ public class SpritesLightsColors : MonoBehaviour
 
         if (gm.lightsValue1 == 0)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = lights0;
+            gameObject.GetComponent<Image>().sprite = lights0;
         }
 
         if (gm.lightsValue1 == 1)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = lights1;
+            gameObject.GetComponent<Image>().sprite = lights1;
         }
 
         if (gm.lightsValue1 == 2)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = lights2;
+            gameObject.GetComponent<Image>().sprite = lights2;
         }
 
         if (gm.lightsValue1 == 3)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = lights3;
+            gameObject.GetComponent<Image>().sprite = lights3;
         }
 
         if (gm.lightsValue1 == 4)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = lights4;
+            gameObject.GetComponent<Image>().sprite = lights4;
         }
 
         if (ib.enabledButton == false)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
+            gameObject.GetComponent<Image>().sprite = buttonDisabled;
         }
 
         

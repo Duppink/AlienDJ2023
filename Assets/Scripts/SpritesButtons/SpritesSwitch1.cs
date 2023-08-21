@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
 
 public class SpritesSwitch1 : MonoBehaviour
 {
     public GameManager gm;
     public InteractableButton ib;
 
-    public Sprite leftOn;
-    public Sprite rightOn;
-    public Sprite neutro;
+    public Sprite upOn;
+    public Sprite downOn;
+    public Sprite neutral;
 
     public Sprite buttonDisabled;
     
@@ -21,23 +23,23 @@ public class SpritesSwitch1 : MonoBehaviour
 
         if (gm.lightsValue3 == 5)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = leftOn;
+            gameObject.GetComponent<Image>().sprite = upOn;
         }
 
         if (gm.lightsValue3 == 6)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = rightOn;
+            gameObject.GetComponent<Image>().sprite = downOn;
         }
 
         if (gm.lightsValue3 == 0)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = neutro;
+            gameObject.GetComponent<Image>().sprite = neutral;
         }
 
 
         if (ib.enabledButton == false)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
+            gameObject.GetComponent<Image>().sprite = buttonDisabled;
         }
        
     }
