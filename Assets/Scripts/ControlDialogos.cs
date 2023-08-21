@@ -11,6 +11,8 @@ public class ControlDialogos : MonoBehaviour
     //public GameObject cartel;
     [SerializeField] TextMeshProUGUI textoPantalla;
     public GameObject backgroundTexto;
+    public GameObject canvasDjTable;
+    public GameObject canvasPostIt;
 
     //public Image cloud;
 
@@ -24,6 +26,8 @@ public class ControlDialogos : MonoBehaviour
     {
         gameObject.SetActive(true);
         backgroundTexto.SetActive(true);
+        canvasDjTable.SetActive(false);
+        canvasPostIt.SetActive(false);
         texto = textoObjeto;
         ActivaTexto();
         
@@ -56,6 +60,8 @@ public class ControlDialogos : MonoBehaviour
         textoPantalla.text = "";
         //gameObject.SetActive(false);
         backgroundTexto.SetActive(false);
+        canvasDjTable.SetActive(true);
+        canvasPostIt.SetActive(true);
         //gameObject.transform.position = new Vector3 (0,-138,0);
         //cloud.enabled = false;
     }
