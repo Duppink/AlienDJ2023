@@ -27,7 +27,7 @@ public class ControlDialogos : MonoBehaviour
         gameObject.SetActive(true);
         backgroundTexto.SetActive(true);
         canvasDjTable.SetActive(false);
-        canvasPostIt.SetActive(false);
+        canvasPostIt.SetActive(false);        
         texto = textoObjeto;
         ActivaTexto();
         
