@@ -70,6 +70,7 @@ public class ControlDialogos : MonoBehaviour
 
         string fraseActual = colaDialogos.Dequeue();
         textoPantalla.text = fraseActual;
+        //StartCoroutine(MostrarCaracteres(fraseActual)); /////////// ACTIVACIÓN DEL EFECTO TYPEWRITER
     }
 
     public void CierraCartel()
@@ -81,7 +82,18 @@ public class ControlDialogos : MonoBehaviour
         backgroundTexto.SetActive(false);
         canvasDjTable.SetActive(true);
         canvasPostIt.SetActive(true);
-        //gameObject.transform.position = new Vector3 (0,-138,0);
-        //cloud.enabled = false;
+        
     }
+
+    /*IEnumerator MostrarCaracteres (string textoAMostrar)               /////////////EFECTO TYPEWRITTER PERO SALE MAL AL SPAMEARLO
+    {
+        textoPantalla.text = "";
+        foreach (char caracter in textoAMostrar.ToCharArray())
+        {
+            textoPantalla.text += caracter;
+            yield return new WaitForSeconds(0.02f);
+        }
+    }*/
+
+
 }

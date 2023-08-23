@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -14,6 +15,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource style4;
     public AudioSource style5;
     public AudioSource style6;
+    private int transitionSpeed = 5;
 
     
     private void Start()
@@ -37,25 +39,25 @@ public class AudioManager : MonoBehaviour
     {
         while (perc1.volume < 1)
         {
-            perc1.volume += Time.deltaTime;
+            perc1.volume += Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc2.volume > 0)
         {
-            perc2.volume -= Time.deltaTime;
+            perc2.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc3.volume > 0)
         {
-            perc3.volume -= Time.deltaTime;
+            perc3.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc4.volume > 0)
         {
-            perc4.volume -= Time.deltaTime;
+            perc4.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
     }
@@ -64,25 +66,25 @@ public class AudioManager : MonoBehaviour
     {
         while (perc2.volume < 1)
         {
-            perc2.volume += Time.deltaTime;
+            perc2.volume += Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc1.volume > 0)
         {
-            perc1.volume -= Time.deltaTime;
+            perc1.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc3.volume > 0)
         {
-            perc3.volume -= Time.deltaTime;
+            perc3.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc4.volume > 0)
         {
-            perc4.volume -= Time.deltaTime;
+            perc4.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
     }
@@ -91,25 +93,25 @@ public class AudioManager : MonoBehaviour
     {
         while (perc3.volume < 1)
         {
-            perc3.volume += Time.deltaTime;
+            perc3.volume += Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc1.volume > 0)
         {
-            perc1.volume -= Time.deltaTime;
+            perc1.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc2.volume > 0)
         {
-            perc2.volume -= Time.deltaTime;
+            perc2.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc4.volume > 0)
         {
-            perc4.volume -= Time.deltaTime;
+            perc4.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
     }
@@ -118,25 +120,25 @@ public class AudioManager : MonoBehaviour
     {
         while (perc4.volume < 1)
         {
-            perc4.volume += Time.deltaTime;
+            perc4.volume += Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc1.volume > 0)
         {
-            perc1.volume -= Time.deltaTime;
+            perc1.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc3.volume > 0)
         {
-            perc3.volume -= Time.deltaTime;
+            perc3.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
 
         while (perc2.volume > 0)
         {
-            perc2.volume -= Time.deltaTime;
+            perc2.volume -= Time.deltaTime * transitionSpeed;
             yield return null;
         }
     }

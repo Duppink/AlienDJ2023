@@ -13213,6 +13213,7 @@ MonoBehaviour:
   timeSong: 242
   timeLeftToStage2: 210
   timeLeftToStage3: 142
+  timerSlider: {fileID: 1065452111}
   stage: 1
 --- !u!4 &834203630
 Transform:

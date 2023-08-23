@@ -13,7 +13,8 @@ public class GameManager : MonoBehaviour
     public AudioManager am = null;
     public AudioSource scratch;
     public AudioClip scratchClip;
-    public LightsController lc = null;
+    public LightsController lc = null;    
+
 
     [Header("Characters")]
     public CharactersBehavior cb1 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
@@ -86,6 +87,8 @@ public class GameManager : MonoBehaviour
     public float timeSong;
     public float timeLeftToStage2;
     public float timeLeftToStage3;
+    public Slider timerSlider;
+    private bool stopTimer;
 
     [Header("Actual Stage")]
     public int stage = 1;
@@ -109,6 +112,9 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         scratch.clip = scratchClip;
+        stopTimer = false;
+        timerSlider.maxValue = timeSong;
+        timerSlider.value = timeSong;
     }
        
 
@@ -117,6 +123,21 @@ public class GameManager : MonoBehaviour
         timeSong = timeSong - 1 * Time.deltaTime;
         timetotext = (int)timeSong;
         tiempo.text = timetotext.ToString();
+
+        float time = timeSong;
+
+        int minutes = Mathf.FloorToInt(time / 60);
+        int second = Mathf.FloorToInt(time - minutes * 60f);
+
+        if (time <= 0)
+        {
+            stopTimer = true;
+        }
+
+        if (stopTimer == false)
+        {
+            timerSlider.value = time;
+        }
 
         if (timeLeftToStage2 >= timeSong)
         {
