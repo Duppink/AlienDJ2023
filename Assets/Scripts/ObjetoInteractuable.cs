@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ObjetoInteractuable : MonoBehaviour
 {
     public Textos textos;
+    public TextoNombrex textoNombrex;
     public Transform controlDialogos;
     //public Image cloud;
     public ImportantSecret ImpoSecre = null;
@@ -15,7 +16,7 @@ public class ObjetoInteractuable : MonoBehaviour
     public GameObject ClickedEffect;
     public NotImportantSecret nis = null;
     
-    
+
     private void Start()
     {
         //cloud = GetComponent<Image>();
@@ -47,7 +48,8 @@ public class ObjetoInteractuable : MonoBehaviour
 
         //controlDialogos.position = new Vector3(1000, 365, 0);
         //cloud.enabled = !cloud.enabled;
-        FindObjectOfType<ControlDialogos>().ActivarCartel(textos);  
+        FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
+        FindObjectOfType<ControlDialogos>().ActivarNombrex(textoNombrex);
 
         if (IsClicked == false)
         {

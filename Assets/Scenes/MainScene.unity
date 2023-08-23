@@ -561,6 +561,8 @@ MonoBehaviour:
     - "\xBFTendr\xE1 que ver con lo que me quer\xEDa preguntar el otro d\xEDa?\r"
     - "Espero que no le haya pasado nada malo. Encuentro raro que se haya arrepentido
       de preguntarme sea lo que sea.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Antonio Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 24005698}
   ImpoSecre2: {fileID: 0}
@@ -1008,6 +1010,8 @@ MonoBehaviour:
       cabr\xF3n."
     - "No he practicado desde que llegu\xE9 a Chile, el tiempo ha estado escaso.
       He estado muy ocupado con la mudanza y el negocio de la familia.\r"
+  textoNombrex:
+    nombreDelPersonaje: Antonio Castillo
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -1266,6 +1270,8 @@ MonoBehaviour:
       reci\xE9n podremos volver a tocar.\r"
     - "Debe cachar harto de m\xFAsica el Marci s\xED, es seco tocando. En vol\xE1
       le pedimos que haga una colaboraci\xF3n con nosotros, quedar\xEDa bac\xE1n.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Antonio Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -1411,6 +1417,8 @@ MonoBehaviour:
     - "Igual lo ech\xE9 harto de menos, ojal\xE1 no se mande otra cagada por la que
       lo suspendan. Aqu\xED pareciera que hay profesores con bipolaridad, un d\xEDa
       son tus amigos y otro son como la polic\xEDa.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Mar L\xF3pez"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 163107071}
   ImpoSecre2: {fileID: 0}
@@ -1812,6 +1820,8 @@ MonoBehaviour:
       ganas de salir despu\xE9s de lo que pas\xF3.\r"
     - "Tengo ganas de contarle a la Sofi, pero no s\xE9 qu\xE9 me dir\xE1. No creo
       que me vaya a juzgar pero igual fue cagazo hacer la cimarra.\r"
+  textoNombrex:
+    nombreDelPersonaje: Yuet Li
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 204740761}
   ImpoSecre2: {fileID: 0}
@@ -2935,6 +2945,8 @@ MonoBehaviour:
       reci\xE9n podremos volver a tocar.\r"
     - "Debe cachar harto de m\xFAsica el Marci s\xED, es seco tocando. En vol\xE1
       le pedimos que haga una colaboraci\xF3n con nosotros, quedar\xEDa bac\xE1n.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Antonio Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -3192,6 +3204,8 @@ MonoBehaviour:
       buena oportunidad, pens\xE9 que lo del globo me iba a ayudar. \xBFHabr\xE1
       cachado que fui yo la que se lo mand\xF3? \r"
     - "Capaz que tanta sutileza ya no est\xE1 funcionando."
+  textoNombrex:
+    nombreDelPersonaje: "Ana Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 287273368}
@@ -3340,6 +3354,8 @@ MonoBehaviour:
       todo el d\xEDa, no s\xE9 como le da el tiempo\u2026 o las ganas."
     - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
       comemos juntos.\r"
+  textoNombrex:
+    nombreDelPersonaje: Ali Saleem
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 291030144}
   ImpoSecre2: {fileID: 0}
@@ -3776,6 +3792,8 @@ MonoBehaviour:
       como le da el tiempo\u2026 o las ganas.\r"
     - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
       comemos juntos.\r"
+  textoNombrex:
+    nombreDelPersonaje: Ali Saleem
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 336656879}
   ImpoSecre2: {fileID: 0}
@@ -4234,6 +4252,8 @@ MonoBehaviour:
       caminar adem\xE1s.\r"
     - "Podr\xEDamos ir juntos con Ana, pero me da plancha preguntarle a Ana despu\xE9s
       de lo que pas\xF3\u2026\r"
+  textoNombrex:
+    nombreDelPersonaje: Antonio Castillo
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 392724384}
   ImpoSecre2: {fileID: 0}
@@ -4555,6 +4575,8 @@ MonoBehaviour:
       le sorprendiera nada.\r"
     - "A veces creo que se cree due\xF1o del mundo con su confianza culi\xE1, lo
       amo pero lo odio.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Mar L\xF3pez"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 427923821}
   ImpoSecre2: {fileID: 0}
@@ -5363,6 +5385,8 @@ MonoBehaviour:
       ganas de salir despu\xE9s de lo que pas\xF3.\r"
     - "Tengo ganas de contarle a la Sofi, pero no s\xE9 qu\xE9 me dir\xE1. No creo
       que me vaya a juzgar pero igual fue cagazo hacer la cimarra.\r"
+  textoNombrex:
+    nombreDelPersonaje: Yuet Li
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 514332048}
   ImpoSecre2: {fileID: 0}
@@ -5740,6 +5764,8 @@ MonoBehaviour:
     - "El Chorip\xE1n culiao le ten\xEDa sangre en el ojo al pobre desde hace rato,
       hasta que consigui\xF3 calzarlo con algo, por muy idiota que haya sido. Pero
       bueno, a todo marrano le llega su noche buena.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Ana Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 566843445}
   ImpoSecre2: {fileID: 0}
@@ -5888,6 +5914,8 @@ MonoBehaviour:
     - "Igual lo ech\xE9 harto de menos, ojal\xE1 no se mande otra cagada por la que
       lo suspendan. Aqu\xED pareciera que hay profesores con bipolaridad, un d\xEDa
       son tus amigos y otro son como la polic\xEDa.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Mar L\xF3pez"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 588169676}
   ImpoSecre2: {fileID: 0}
@@ -6144,6 +6172,8 @@ MonoBehaviour:
       los globos.\r"
     - Yo cacho que cuando se calmen las cosas voy a contarlo y pedir disculpas en
       consejo de curso.
+  textoNombrex:
+    nombreDelPersonaje: Ali Saleem
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 641034033}
@@ -6291,6 +6321,8 @@ MonoBehaviour:
     - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
       haciendo el loco para ver c\xF3mo reacciona, vamos a ver si aprieto algunos
       de sus botones con eso. \r"
+  textoNombrex:
+    nombreDelPersonaje: "Antonio Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 650553725}
   ImpoSecre2: {fileID: 0}
@@ -6743,6 +6775,8 @@ MonoBehaviour:
       cabr\xF3n."
     - "No he practicado desde que llegu\xE9 a Chile, el tiempo ha estado escaso.
       He estado muy ocupado con la mudanza y el negocio de la familia.\r"
+  textoNombrex:
+    nombreDelPersonaje: Antonio Castillo
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -12354,6 +12388,8 @@ MonoBehaviour:
     - "Me mov\xED caleta en el partido de hoy, corriendo de arco a arco como campe\xF3n.\r"
     - "Con cuea me dio tiempo para ducharme, ojal\xE1 no est\xE9 pasado a ala\u2026
       \r"
+  textoNombrex:
+    nombreDelPersonaje: "Mar L\xF3pez"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -12624,6 +12660,8 @@ MonoBehaviour:
     - "Estoy ansioso weon, la anticipaci\xF3n me mata.\r"
     - "Esta semana es el concierto del Juan25, va a estar pal picooo.\r"
     - "Ese dia no estoy ni ah\xED con las weas de las asambleas, yo voy s\xED o s\xED.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Benjam\xEDn Fuentes"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -13441,6 +13479,8 @@ MonoBehaviour:
     - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo,
       as\xED aprovecha de conocer.\r"
     - "Tengo que agendarlo para hacer calzar mis tiempos.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Sof\xEDa Torres"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 899343546}
@@ -14527,6 +14567,8 @@ MonoBehaviour:
       \u201Cobscenas\u201D para volverlo a ver de hocico al suelo hasta pago.\r"
     - "Qu\xE9 lata que justo el Marci taba raja, lo hubiese visto en primera plana,
       si la we\xE1 pas\xF3 encuadr\xE1 en su ventana. \r"
+  textoNombrex:
+    nombreDelPersonaje: "Benjam\xEDn Fuentes"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 993104302}
   ImpoSecre2: {fileID: 0}
@@ -14843,6 +14885,8 @@ MonoBehaviour:
       caminar adem\xE1s.\r"
     - "Podr\xEDamos ir juntos con Ana, pero me da plancha preguntarle a Ana despu\xE9s
       de lo que pas\xF3\u2026\r"
+  textoNombrex:
+    nombreDelPersonaje: Antonio Castillo
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 1006897282}
   ImpoSecre2: {fileID: 0}
@@ -15256,7 +15300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1031999808
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15297,7 +15341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Javier Figueroa
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ba89e2bc9cdd9174aa5d175a6d6e5b66, type: 2}
   m_sharedMaterial: {fileID: -4276352225646359353, guid: ba89e2bc9cdd9174aa5d175a6d6e5b66, type: 2}
@@ -16386,6 +16430,8 @@ MonoBehaviour:
     - "Me doli\xF3 verlo y ni supe con qui\xE9n era\u2026 No me puedo sacar esa imagen
       de la cabeza.\r"
     - "Por lo menos ellas no me vieron.\r"
+  textoNombrex:
+    nombreDelPersonaje: Antonio Castillo
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1132426427}
@@ -16532,6 +16578,8 @@ MonoBehaviour:
     - "Una de las cartas hablaba de un extranjero fuera de lo com\xFAn que podr\xEDa
       llegar a mi vida.\r"
     - "Siento esa presencia especial\u2026\r"
+  textoNombrex:
+    nombreDelPersonaje: Yuet Li
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -16676,6 +16724,8 @@ MonoBehaviour:
     - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
       haciendo el loco para ver c\xF3mo reacciona, vamos a ver si aprieto algunos
       de sus botones con eso. \r"
+  textoNombrex:
+    nombreDelPersonaje: "Antonio Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 1153905711}
   ImpoSecre2: {fileID: 0}
@@ -16997,6 +17047,8 @@ MonoBehaviour:
     - "El Chorip\xE1n culiao le ten\xEDa sangre en el ojo al pobre desde hace rato,
       hasta que consigui\xF3 calzarlo con algo, por muy idiota que haya sido. Pero
       bueno, a todo marrano le llega su noche buena.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Ana Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 566843445}
   ImpoSecre2: {fileID: 0}
@@ -17360,6 +17412,8 @@ MonoBehaviour:
     - "Siento esa presencia especial\u2026\r"
     - ...
     - "\xBFEst\xE1s aqu\xED?\r"
+  textoNombrex:
+    nombreDelPersonaje: Yuet Li
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -17721,6 +17775,8 @@ MonoBehaviour:
     - "Estoy cagao de hambre.\r"
     - "No pens\xE9 que la we\xE1 de la lonchera me iba a cagar tanto. \r"
     - "Adi\xF3s garbanzos, uno nunca sabe lo que tiene hasta que lo pierde.\r"
+  textoNombrex:
+    nombreDelPersonaje: Ali Saleem
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -18208,6 +18264,8 @@ MonoBehaviour:
     - "Voy a aprovechar de preguntarle por qu\xE9 lleg\xF3 tan tarde con el Ali.
       Quiz\xE1s les pas\xF3 algo estando juntos y no han querido decir. Igual me
       preocupan, en vol\xE1 hasta los asaltaron.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Sof\xEDa Torres"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 1363415667}
   ImpoSecre2: {fileID: 0}
@@ -18618,6 +18676,8 @@ MonoBehaviour:
     - "Estoy ansioso weon, la anticipaci\xF3n me mata.\r"
     - "Esta semana es el concierto del Juan25, va a estar pal picooo.\r"
     - "Ese dia no estoy ni ah\xED con las weas de las asambleas, yo voy s\xED o s\xED.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Benjam\xEDn Fuentes"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -18963,7 +19023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1453541176
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19004,7 +19064,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Javier Figueroa
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ba89e2bc9cdd9174aa5d175a6d6e5b66, type: 2}
   m_sharedMaterial: {fileID: -4276352225646359353, guid: ba89e2bc9cdd9174aa5d175a6d6e5b66, type: 2}
@@ -19271,6 +19331,8 @@ MonoBehaviour:
     - "Pronto se viene el de Princesa Alba. Eso va estar br\xEDgidooo.\r"
     - "Ni cagando nos la perdemos, aunque sea en per\xEDodo de clases.\r"
     - "Me encanta que con la Ana seamos igual de detonaos\u2019.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Benjam\xEDn Fuentes"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1471302304}
@@ -20040,6 +20102,8 @@ MonoBehaviour:
     - "Estoy cagao de hambre.\r"
     - "No pens\xE9 que la we\xE1 de la lonchera me iba a cagar tanto. \r"
     - "Adi\xF3s garbanzos, uno nunca sabe lo que tiene hasta que lo pierde.\r"
+  textoNombrex:
+    nombreDelPersonaje: Ali Saleem
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -21327,6 +21391,8 @@ MonoBehaviour:
     - "Me lanc\xE9 y le di un piquito a la Sofi, nos miramos un rato, pero cuando
       son\xF3 el timbre la Sofi al tiro se fue, no me dijo nada.\r"
     - "Qued\xE9 super confundida, no entiendo ni c\xF3mo se sinti\xF3.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Ana Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -22218,7 +22284,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 362de3f1921db3048af63b7e6fd6df38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textoNombrexs:
+    nombreDelPersonaje: 
   textoPantalla: {fileID: 251815240}
+  textoNombreAmarillo: {fileID: 1453541177}
+  textoNombreNegro: {fileID: 1031999809}
   backgroundTexto: {fileID: 1318400196}
   canvasDjTable: {fileID: 966090917}
   canvasPostIt: {fileID: 722948358}
@@ -23140,6 +23210,8 @@ MonoBehaviour:
     - "Voy a aprovechar de preguntarle por qu\xE9 lleg\xF3 tan tarde con el Ali.
       Quiz\xE1s les pas\xF3 algo estando juntos y no han querido decir. Igual me
       preocupan, en vol\xE1 hasta los asaltaron.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Sof\xEDa Torres"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 1885050298}
   ImpoSecre2: {fileID: 0}
@@ -23289,6 +23361,8 @@ MonoBehaviour:
       le sorprendiera nada.\r"
     - "A veces creo que se cree due\xF1o del mundo con su confianza culi\xE1, lo
       amo pero lo odio.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Mar L\xF3pez"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 1886448356}
   ImpoSecre2: {fileID: 0}
@@ -23730,6 +23804,8 @@ MonoBehaviour:
       reaccionar con este tipo de cosas.\r"
     - "Cuando son\xF3 la campana solo atin\xE9 a irme, entr\xE9 como en piloto autom\xE1tico.\r"
     - "Necesito hablar con ella, hay harto que en verdad no entiendo.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Sof\xEDa Torres"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -24008,6 +24084,8 @@ MonoBehaviour:
     - "Ahora que pas\xF3 todo esto el Ali anda preocupado y se me va a hacer m\xE1s
       dif\xEDcil que salgamos los dos solos otra vez."
     - "El mundo conspira contra m\xED o simplemente tengo una p\xE9sima suerte.\r"
+  textoNombrex:
+    nombreDelPersonaje: Yuet Li
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1993513247}
@@ -24324,6 +24402,8 @@ MonoBehaviour:
       buena oportunidad, pens\xE9 que lo del globo me iba a ayudar. \xBFHabr\xE1
       cachado que fui yo la que se lo mand\xF3? \r"
     - "Capaz que tanta sutileza ya no est\xE1 funcionando.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Ana Garc\xEDa"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 2094693333}
@@ -24471,6 +24551,8 @@ MonoBehaviour:
     - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo,
       as\xED aprovecha de conocer.\r"
     - "Tengo que agendarlo para hacer calzar mis tiempos.\r"
+  textoNombrex:
+    nombreDelPersonaje: "Sof\xEDa Torres"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 2101034222}
@@ -24623,6 +24705,8 @@ MonoBehaviour:
       \u201Cobscenas\u201D para volverlo a ver de hocico al suelo hasta pago.\r"
     - "Qu\xE9 lata que justo el Marci taba raja, lo hubiese visto en primera plana,
       si la we\xE1 pas\xF3 encuadr\xE1 en su ventana. \r"
+  textoNombrex:
+    nombreDelPersonaje: "Benjam\xEDn Fuentes"
   controlDialogos: {fileID: 0}
   ImpoSecre: {fileID: 2101109845}
   ImpoSecre2: {fileID: 0}
