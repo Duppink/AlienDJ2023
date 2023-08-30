@@ -11,7 +11,7 @@ public class ControlDialogos : MonoBehaviour
     public TextoNombrex textoNombrexs;
     //public GameObject cartel;
     [SerializeField] TextMeshProUGUI textoPantalla;
-    [SerializeField] TextMeshProUGUI textoNombreAmarillo;
+    public TextMeshProUGUI textoNombreAmarillo;
     [SerializeField] TextMeshProUGUI textoNombreNegro;
     public GameObject backgroundTexto;
     public GameObject canvasDjTable;
@@ -70,7 +70,7 @@ public class ControlDialogos : MonoBehaviour
 
         string fraseActual = colaDialogos.Dequeue();
         textoPantalla.text = fraseActual;
-        //StartCoroutine(MostrarCaracteres(fraseActual)); /////////// ACTIVACIÓN DEL EFECTO TYPEWRITER
+        //StartCoroutine(MostrarCaracteres(fraseActual)); /////////// ACTIVACIï¿½N DEL EFECTO TYPEWRITER
     }
 
     public void CierraCartel()

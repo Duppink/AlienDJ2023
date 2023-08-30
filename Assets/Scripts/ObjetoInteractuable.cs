@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ObjetoInteractuable : MonoBehaviour
 {
+    public LightsController lc; // Variable que contiene el controlador de luces
     public Textos textos;
     public TextoNombrex textoNombrex;
     public Transform controlDialogos;
@@ -50,6 +51,15 @@ public class ObjetoInteractuable : MonoBehaviour
         //cloud.enabled = !cloud.enabled;
         FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
         FindObjectOfType<ControlDialogos>().ActivarNombrex(textoNombrex);
+        /*lc.ActivateOnlySpotlight1();
+        lc.ActivateOnlySpotlight2();
+        lc.ActivateOnlySpotlight3();
+        lc.ActivateOnlySpotlight4();
+        lc.ActivateOnlySpotlight5();
+        lc.ActivateOnlySpotlight6();
+        lc.ActivateOnlySpotlight7();
+        lc.ActivateOnlySpotlight8(); */
+        
 
         if (IsClicked == false)
         {

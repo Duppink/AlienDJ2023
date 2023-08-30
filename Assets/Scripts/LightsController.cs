@@ -8,6 +8,7 @@ using DG.Tweening;
 public class LightsController : MonoBehaviour
 {
     public GameManager gm;      // Referencia al script Game Manager.
+    public ControlDialogos cd; // Referencia al Controlador de Dialogos en Canvas de Novela
     [Header("Spotlights Light 2D")]
     public UnityEngine.Rendering.Universal.Light2D Spotlight1;
     public UnityEngine.Rendering.Universal.Light2D Spotlight2;
@@ -48,6 +49,14 @@ public class LightsController : MonoBehaviour
         ShutdownSpotlights();
         AversionPointlights();
         SurprisePointlights();
+        ActivateOnlySpotlight1();
+        ActivateOnlySpotlight2();
+        ActivateOnlySpotlight3();
+        ActivateOnlySpotlight4();
+        ActivateOnlySpotlight5();
+        ActivateOnlySpotlight6();
+        ActivateOnlySpotlight7();
+        ActivateOnlySpotlight8();
     }
     public void ChangeColorToNeutralWhite()
     {
@@ -131,63 +140,192 @@ public class LightsController : MonoBehaviour
        Pointlight4.color = Color.green;
     }
 
+    public void ActivateOnlySpotlight1()
+    {
+        if (cd.textoNombreAmarillo.text == "Antonio Castillo")
+        {
+        Spotlight1.intensity = 1f;
+        Spotlight2.intensity = 0f;
+        Spotlight3.intensity = 0f;
+        Spotlight4.intensity = 0f;
+        Spotlight5.intensity = 0f;
+        Spotlight6.intensity = 0f;
+        Spotlight7.intensity = 0f;
+        Spotlight8.intensity = 0f;
+        }
+    }
+
+    public void ActivateOnlySpotlight2()
+    {
+        if (cd.textoNombreAmarillo.text == "Mar López")
+        {
+        Spotlight1.intensity = 0f;
+        Spotlight2.intensity = 1f;
+        Spotlight3.intensity = 0f;
+        Spotlight4.intensity = 0f;
+        Spotlight5.intensity = 0f;
+        Spotlight6.intensity = 0f;
+        Spotlight7.intensity = 0f;
+        Spotlight8.intensity = 0f;
+        }
+    }
+
+    public void ActivateOnlySpotlight3()
+    {
+        if (cd.textoNombreAmarillo.text == "Ali Saleem")
+        {
+        Spotlight1.intensity = 0f;
+        Spotlight2.intensity = 0f;
+        Spotlight3.intensity = 1f;
+        Spotlight4.intensity = 0f;
+        Spotlight5.intensity = 0f;
+        Spotlight6.intensity = 0f;
+        Spotlight7.intensity = 0f;
+        Spotlight8.intensity = 0f;
+        }
+    }
+
+    public void ActivateOnlySpotlight4()
+    {
+        if (cd.textoNombreAmarillo.text == "Ana García")
+        {
+        Spotlight1.intensity = 0f;
+        Spotlight2.intensity = 0f;
+        Spotlight3.intensity = 0f;
+        Spotlight4.intensity = 1f;
+        Spotlight5.intensity = 0f;
+        Spotlight6.intensity = 0f;
+        Spotlight7.intensity = 0f;
+        Spotlight8.intensity = 0f;
+        }
+    }
+
+    public void ActivateOnlySpotlight5()
+    {
+        if (cd.textoNombreAmarillo.text == "Antonio García")
+        {
+        Spotlight1.intensity = 0f;
+        Spotlight2.intensity = 0f;
+        Spotlight3.intensity = 0f;
+        Spotlight4.intensity = 0f;
+        Spotlight5.intensity = 1f;
+        Spotlight6.intensity = 0f;
+        Spotlight7.intensity = 0f;
+        Spotlight8.intensity = 0f;
+        }
+    }
+
+    public void ActivateOnlySpotlight6()
+    {
+        if (cd.textoNombreAmarillo.text == "Sofía Torres")
+        {
+        Spotlight1.intensity = 0f;
+        Spotlight2.intensity = 0f;
+        Spotlight3.intensity = 0f;
+        Spotlight4.intensity = 0f;
+        Spotlight5.intensity = 0f;
+        Spotlight6.intensity = 1f;
+        Spotlight7.intensity = 0f;
+        Spotlight8.intensity = 0f;
+        }
+    }
+
+    public void ActivateOnlySpotlight7()
+    {
+        if (cd.textoNombreAmarillo.text == "Benjamín Fuentes")
+        {
+        Spotlight1.intensity = 0f;
+        Spotlight2.intensity = 0f;
+        Spotlight3.intensity = 0f;
+        Spotlight4.intensity = 0f;
+        Spotlight5.intensity = 0f;
+        Spotlight6.intensity = 0f;
+        Spotlight7.intensity = 1f;
+        Spotlight8.intensity = 0f;
+        }
+    }
+
+    public void ActivateOnlySpotlight8()
+    {
+        if (cd.textoNombreAmarillo.text == "Yuet Li")
+        {
+        Spotlight1.intensity = 0f;
+        Spotlight2.intensity = 0f;
+        Spotlight3.intensity = 0f;
+        Spotlight4.intensity = 0f;
+        Spotlight5.intensity = 0f;
+        Spotlight6.intensity = 0f;
+        Spotlight7.intensity = 0f;
+        Spotlight8.intensity = 1f;
+        }
+    }
+
     public void AnticipationSpotlights()
     {
-       if(activeAnticipationSpotlights == true && gm.lightsValue3 == 5)
+       if (cd.textoNombreAmarillo.text == "")
        {
+            if(activeAnticipationSpotlights == true && gm.lightsValue3 == 5)
+            {
            
            Invoke("ActiveAnticipationSpotlights1", 1f);
            return;
-           
-       }
 
-       if(activeAnticipationSpotlights == false && gm.lightsValue3 == 5)
-       {
+            }
+
+            if(activeAnticipationSpotlights == false && gm.lightsValue3 == 5)
+            {
            
            Invoke("ActiveAnticipationSpotlights2", 1f);
            return;
            
+            }
        }
+       
+       
     }
 
     public void SurpriseSpotlights()
     {
-       if(activeSurpriseSpotlights == 0 && gm.lightsValue3 == 6)
-       {
+        if (cd.textoNombreAmarillo.text == "")
+        {
+            if(activeSurpriseSpotlights == 0 && gm.lightsValue3 == 6)
+            {
            
            Invoke("ActiveSurpriseSpotlights1", 1f);
            return;
            
-       }
+            }
 
-       if(activeSurpriseSpotlights == 1 && gm.lightsValue3 == 6)
-       {
+            if(activeSurpriseSpotlights == 1 && gm.lightsValue3 == 6)
+            {
            
            Invoke("ActiveSurpriseSpotlights2", 1f);
            return;
            
-       }
-       if(activeSurpriseSpotlights == 2 && gm.lightsValue3 == 6)
-       {
+            }
+            if(activeSurpriseSpotlights == 2 && gm.lightsValue3 == 6)
+            {
            
            Invoke("ActiveSurpriseSpotlights3", 1f);
            return;
            
-       }
-       if(activeSurpriseSpotlights == 3 && gm.lightsValue3 == 6)
-       {
+            }
+            if(activeSurpriseSpotlights == 3 && gm.lightsValue3 == 6)
+            {
            
            Invoke("ActiveSurpriseSpotlights4", 1f);
            return;
            
-       }
-       if(activeSurpriseSpotlights == 4 && gm.lightsValue3 == 6)
-       {
+            }
+            if(activeSurpriseSpotlights == 4 && gm.lightsValue3 == 6)
+            {
            
            Invoke("ActiveSurpriseSpotlights5", 1f);
            return;
            
-       }
+            }
+        }
+       
     }
 
     public void AversionPointlights()
@@ -224,8 +362,10 @@ public class LightsController : MonoBehaviour
 
     public void ShutdownSpotlights()
     {
-        if(gm.lightsValue3 == 0)
+        if (cd.textoNombreAmarillo.text == "")
         {
+            if(gm.lightsValue3 == 0)
+            {
             Spotlight1.intensity = 0.75f;
             Spotlight2.intensity = 0.75f;
             Spotlight3.intensity = 0.75f;
@@ -239,7 +379,9 @@ public class LightsController : MonoBehaviour
             Pointlight2.intensity = 0.75f;
             Pointlight3.intensity = 0.75f;
             Pointlight4.intensity = 0.75f;
+            }
         }
+        
     }
 
     public void ActiveAnticipationSpotlights1()
