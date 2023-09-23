@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour
     public float timeLeftToStage2;
     public float timeLeftToStage3;
     public Slider timerSlider;
+    public Slider timerSliderNovelaVisual;
     private bool stopTimer;
 
     [Header("Actual Stage")]
@@ -115,6 +116,8 @@ public class GameManager : MonoBehaviour
         stopTimer = false;
         timerSlider.maxValue = timeSong;
         timerSlider.value = timeSong;
+        timerSliderNovelaVisual.maxValue = timeSong;
+        timerSliderNovelaVisual.value = timeSong;
     }
        
 
@@ -137,6 +140,7 @@ public class GameManager : MonoBehaviour
         if (stopTimer == false)
         {
             timerSlider.value = time;
+            timerSliderNovelaVisual.value = time;
         }
 
         if (timeLeftToStage2 >= timeSong)
