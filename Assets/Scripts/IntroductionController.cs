@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -63,14 +65,91 @@ public class IntroductionController : MonoBehaviour
     public GameObject introText14;
     public GameObject introText15;
     public GameObject introText16;
+
     */
+
+    private float timer1;
+    private float timer2;
+    private float timerDrawingtext01;
+    private float timer3;
+    private float timer4;
+    private float timer5;        
+    private float timer6;
+    private float timer7;
+    private float timer8;
+    private float timer9;
+    private float timer10;
+    private float timer11;
+    private float timer12;
+    private float timer13;
+    private float timer14;
+    private float timer15;
+    private float timer16;
+    //private float timer17;
+    private float timer18;
+    private float timer19;
+    private float timer20;
+    private float timer21;
+    private float timer22;
+    private float timer23;
+    private float timer24;
+    private float timer25;
+    private float timer26;
+    private float timer27;
+    private float timer28;
+    private float timer29;
+    private float timer30;
+    private float timer31;
+    private float timer32;
+    private float timer33;
+
+
+    private void Update()
+    {
+        //Fade In Drawing01
+        if (timer1 < 1 && drawing01.activeInHierarchy)
+        {
+            timer1 += 1 * Time.deltaTime;
+            drawing01.GetComponent<Image>().color = new UnityEngine.Color(1, 1, 1, timer1);
+            
+        }
+
+        //Fade In Drawing02
+        if (timer2 < 1 && drawing02.activeInHierarchy)
+        {
+            timer2 += 1 * Time.deltaTime;
+            drawing02.GetComponent<Image>().color = new UnityEngine.Color(1, 1, 1, timer2);
+
+        }
+
+        //Fade In Drawingtext01
+        if (timerDrawingtext01 < 1 && drawingtext01.activeInHierarchy)
+        {
+            timerDrawingtext01 += 1 * Time.deltaTime;
+            drawingtext01.GetComponent<Image>().color = new UnityEngine.Color(1, 1, 1, timerDrawingtext01);
+
+        }
+
+        //Fade In Drawingtext03
+        if (timer3 < 1 && drawing03.activeInHierarchy)
+        {
+            timer3 += 1 * Time.deltaTime;
+            drawing03.GetComponent<Image>().color = new UnityEngine.Color(1, 1, 1, timer3);
+
+        }
+
+
+
+
+    }
+
 
     public void ChangeDrawing ()
     {
     
         if(currentDrawings == 0)
-        {
-            drawing01.SetActive(true);
+        {              
+            drawing01.SetActive(true);            
             currentDrawings = 1;
             return;
         }
