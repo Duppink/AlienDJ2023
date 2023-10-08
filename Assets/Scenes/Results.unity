@@ -3477,11 +3477,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -3597,6 +3597,7 @@ MonoBehaviour:
   gsm: {fileID: 1800656204}
   drawing01: {fileID: 0}
   drawing02: {fileID: 0}
+  drawingtext01: {fileID: 0}
   drawing03: {fileID: 0}
   drawing04: {fileID: 0}
   drawing05: {fileID: 0}
@@ -3621,22 +3622,14 @@ MonoBehaviour:
   drawing24: {fileID: 0}
   drawing25: {fileID: 0}
   drawing26: {fileID: 0}
-  introText01: {fileID: 0}
-  introText02: {fileID: 0}
-  introText03: {fileID: 0}
-  introText04: {fileID: 0}
-  introText05: {fileID: 0}
-  introText06: {fileID: 0}
-  introText07: {fileID: 0}
-  introText08: {fileID: 0}
-  introText09: {fileID: 0}
-  introText10: {fileID: 0}
-  introText11: {fileID: 0}
-  introText12: {fileID: 0}
-  introText13: {fileID: 0}
-  introText14: {fileID: 0}
-  introText15: {fileID: 0}
-  introText16: {fileID: 0}
+  drawing27: {fileID: 0}
+  drawing28: {fileID: 0}
+  drawing29: {fileID: 0}
+  drawing30: {fileID: 0}
+  drawing31: {fileID: 0}
+  drawing32: {fileID: 0}
+  drawing33: {fileID: 0}
+  timerControllerOfVignett: 0
 --- !u!1 &1886517169
 GameObject:
   m_ObjectHideFlags: 0
