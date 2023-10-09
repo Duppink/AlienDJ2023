@@ -13307,9 +13307,9 @@ MonoBehaviour:
   Mision2_GloboUFO: 0
   Mision3_Lonchera: 0
   tiempo: {fileID: 741388487}
-  timeSong: 242
-  timeLeftToStage2: 210
-  timeLeftToStage3: 142
+  timeSong: 20
+  timeLeftToStage2: 15
+  timeLeftToStage3: 5
   timerSlider: {fileID: 1065452111}
   timerSliderNovelaVisual: {fileID: 1321766951}
   stage: 1

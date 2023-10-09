@@ -77,6 +77,7 @@ public class GameManager : MonoBehaviour
     public bool Mision1_Durmiendo; //17
     public bool Mision2_GloboUFO; //18
     public bool Mision3_Lonchera; //19
+        
 
     [Header("Time Text")]
     public TextMeshProUGUI tiempo = null;
@@ -107,6 +108,7 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            //CursorController.SetDefault();
         }
     }
 
@@ -122,7 +124,8 @@ public class GameManager : MonoBehaviour
        
 
     void Update()
-    {
+    {     
+
         timeSong = timeSong - 1 * Time.deltaTime;
         timetotext = (int)timeSong;
         tiempo.text = timetotext.ToString();
