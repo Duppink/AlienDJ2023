@@ -27,6 +27,11 @@ public class GameSceneManager : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
+    public void GoToTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
     // Función que nos permite salir del juego.
     public void ExitGame()
     {
