@@ -13307,7 +13307,7 @@ MonoBehaviour:
   Mision2_GloboUFO: 0
   Mision3_Lonchera: 0
   tiempo: {fileID: 741388487}
-  timeSong: 242
+  timeSong: 240
   timeLeftToStage2: 210
   timeLeftToStage3: 142
   timerSlider: {fileID: 1065452111}
@@ -22204,7 +22204,7 @@ MonoBehaviour:
   lc: {fileID: 239261642}
   textos:
     arrayTextos:
-    - "\xA1Me da mucha verg\xFCenza acordarme de esta we\xE1!\r"
+    - "\xA1Me da mucha verwenza acordarme de esta we\xE1!\r"
     - "Casi siempre soy yo la que espera, pero no me aguant\xE9. Sent\xED que el
       momento era perfe, est\xE1bamos muy cerca, no hab\xEDa nadie en el cuarto piso
       y solo lo hice.\r"

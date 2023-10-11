@@ -5320,6 +5320,7 @@ GameObject:
   - component: {fileID: 2109680013}
   - component: {fileID: 2109680015}
   - component: {fileID: 2109680014}
+  - component: {fileID: 2109680016}
   m_Layer: 5
   m_Name: MARCIANOQLO
   m_TagString: Untagged
@@ -5336,7 +5337,7 @@ RectTransform:
   m_GameObject: {fileID: 2109680012}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.45673156, y: 0.45673156, z: 0.45673156}
+  m_LocalScale: {x: 0.45673156, y: 0.4567316, z: 0.4567316}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 35407431}
@@ -5385,3 +5386,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109680012}
   m_CullTransparentMesh: 1
+--- !u!95 &2109680016
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109680012}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 31b2904ac7cde8743bc4bb4fc96ff6f8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -369,238 +369,238 @@ public class IntroductionController : MonoBehaviour
             return;
         }
         
-        if((currentDrawings == 1) && (timerControllerOfVignett >= 1))        
+        if((currentDrawings == 1) && (timerControllerOfVignett >= 1.5))        
         {
             drawing02.SetActive(true);
             currentDrawings = 1.5f;
             return;
         }
 
-        if ((currentDrawings == 1.5) && (timerControllerOfVignett >= 2))
+        if ((currentDrawings == 1.5) && (timerControllerOfVignett >= 3))
         {
             drawingtext01.SetActive(true);
             currentDrawings = 2;
             return;
         }
 
-        if ((currentDrawings == 2) && (timerControllerOfVignett >= 3))
+        if ((currentDrawings == 2) && (timerControllerOfVignett >= 4.5))
         {
             drawing03.SetActive(true);
             currentDrawings = 3;
             return;
         }
 
-        if ((currentDrawings == 3) && (timerControllerOfVignett >= 4))
+        if ((currentDrawings == 3) && (timerControllerOfVignett >= 6))
         {
             drawing04.SetActive(true);
             currentDrawings = 4;
             return;
         }
 
-        if ((currentDrawings == 4) && (timerControllerOfVignett >= 5))
+        if ((currentDrawings == 4) && (timerControllerOfVignett >= 7.5))
         {
             drawing05.SetActive(true);
             currentDrawings = 5;
             return;
         }
 
-        if ((currentDrawings == 5) && (timerControllerOfVignett >= 6)) 
+        if ((currentDrawings == 5) && (timerControllerOfVignett >= 9)) 
         {
             drawing06.SetActive(true);
             currentDrawings = 6;
             return;
         }
 
-        if ((currentDrawings == 6) && (timerControllerOfVignett >= 7))
+        if ((currentDrawings == 6) && (timerControllerOfVignett >= 10.5))
         {
             drawing07.SetActive(true);
             currentDrawings = 7;
             return;
         }
 
-        if ((currentDrawings == 7) && (timerControllerOfVignett >= 8))
+        if ((currentDrawings == 7) && (timerControllerOfVignett >= 12))
         {
             drawing08.SetActive(true);
             currentDrawings = 8;
             return;
         }
 
-        if ((currentDrawings == 8) && (timerControllerOfVignett >= 9))
+        if ((currentDrawings == 8) && (timerControllerOfVignett >= 13.5))
         {
             drawing09.SetActive(true);
             currentDrawings = 9;
             return;
         }
 
-        if ((currentDrawings == 9) && (timerControllerOfVignett >= 10))
+        if ((currentDrawings == 9) && (timerControllerOfVignett >= 15))
         {
             drawing10.SetActive(true);
             currentDrawings = 10;
             return;
         }
 
-        if ((currentDrawings == 10) && (timerControllerOfVignett >= 11))
+        if ((currentDrawings == 10) && (timerControllerOfVignett >= 16.5))
         {
             drawing11.SetActive(true);
             currentDrawings = 11;
             return;
         }
 
-        if ((currentDrawings == 11) && (timerControllerOfVignett >= 12))
+        if ((currentDrawings == 11) && (timerControllerOfVignett >= 18))
         {
             drawing12.SetActive(true);
             currentDrawings = 12;
             return;
         }
 
-        if ((currentDrawings == 12) && (timerControllerOfVignett >= 13))
+        if ((currentDrawings == 12) && (timerControllerOfVignett >= 19.5))
         {
             drawing13.SetActive(true);
             currentDrawings = 13;
             return;
         }
 
-        if ((currentDrawings == 13) && (timerControllerOfVignett >= 14))
+        if ((currentDrawings == 13) && (timerControllerOfVignett >= 21))
         {
             drawing14.SetActive(true);
             currentDrawings = 14;
             return;
         }
 
-        if ((currentDrawings == 14) && (timerControllerOfVignett >= 15))
+        if ((currentDrawings == 14) && (timerControllerOfVignett >= 22.5))
         {
             drawing15.SetActive(true);
             currentDrawings = 15;
             return;
         }
 
-        if ((currentDrawings == 15) && (timerControllerOfVignett >= 16))
+        if ((currentDrawings == 15) && (timerControllerOfVignett >= 24))
         {
             drawing16.SetActive(true);
             currentDrawings = 16;
             return;
         }
 
-        if ((currentDrawings == 16) && (timerControllerOfVignett >= 17))
+        if ((currentDrawings == 16) && (timerControllerOfVignett >= 25.5))
         {
             drawing17.SetActive(true);
             currentDrawings = 17;
             return;
         }
 
-        if ((currentDrawings == 17) && (timerControllerOfVignett >= 17))
+        if ((currentDrawings == 17) && (timerControllerOfVignett >= 27))
         {
             drawing18.SetActive(true);
             currentDrawings = 18;
             return;
         }
 
-        if ((currentDrawings == 18) && (timerControllerOfVignett >= 18))
+        if ((currentDrawings == 18) && (timerControllerOfVignett >= 28.5))
         {
             drawing19.SetActive(true);
             currentDrawings = 19;
             return;
         }
 
-        if ((currentDrawings == 19) && (timerControllerOfVignett >= 19))
+        if ((currentDrawings == 19) && (timerControllerOfVignett >= 30))
         {
             drawing20.SetActive(true);
             currentDrawings = 20;
             return;
         }
 
-        if ((currentDrawings == 20) && (timerControllerOfVignett >= 20))
+        if ((currentDrawings == 20) && (timerControllerOfVignett >= 31.5))
         {
             drawing21.SetActive(true);
             currentDrawings = 21;
             return;
         }
 
-        if ((currentDrawings == 21) && (timerControllerOfVignett >= 21))
+        if ((currentDrawings == 21) && (timerControllerOfVignett >= 33))
         {
             drawing22.SetActive(true);
             currentDrawings = 22;
             return;
         }
 
-        if ((currentDrawings == 22) && (timerControllerOfVignett >= 22))
+        if ((currentDrawings == 22) && (timerControllerOfVignett >= 34.5))
         {
             drawing23.SetActive(true);
             currentDrawings = 23;
             return;
         }
 
-        if ((currentDrawings == 23) && (timerControllerOfVignett >= 23))
+        if ((currentDrawings == 23) && (timerControllerOfVignett >= 36))
         {
             drawing24.SetActive(true);
             currentDrawings = 24;
             return;
         }
 
-        if ((currentDrawings == 24) && (timerControllerOfVignett >= 24))
+        if ((currentDrawings == 24) && (timerControllerOfVignett >= 37.5))
         {
             drawing25.SetActive(true);
             currentDrawings = 25;
             return;
         }
 
-        if ((currentDrawings == 25) && (timerControllerOfVignett >= 25))
+        if ((currentDrawings == 25) && (timerControllerOfVignett >= 39))
         {
             drawing26.SetActive(true);
             currentDrawings = 26;
             return;
         }
 
-        if ((currentDrawings == 26) && (timerControllerOfVignett >= 26))
+        if ((currentDrawings == 26) && (timerControllerOfVignett >= 40.5))
         {
             drawing27.SetActive(true);
             currentDrawings = 27;
             return;
         }
 
-        if ((currentDrawings == 27) && (timerControllerOfVignett >= 27))
+        if ((currentDrawings == 27) && (timerControllerOfVignett >= 42))
         {
             drawing28.SetActive(true);
             currentDrawings = 28;
             return;
         }
 
-        if ((currentDrawings == 28) && (timerControllerOfVignett >= 28))
+        if ((currentDrawings == 28) && (timerControllerOfVignett >= 43.5))
         {
             drawing29.SetActive(true);
             currentDrawings = 29;
             return;
         }
 
-        if ((currentDrawings == 29) && (timerControllerOfVignett >= 29))
+        if ((currentDrawings == 29) && (timerControllerOfVignett >= 45))
         {
             drawing30.SetActive(true);
             currentDrawings = 30;
             return;
         }
 
-        if ((currentDrawings == 30) && (timerControllerOfVignett >= 30))
+        if ((currentDrawings == 30) && (timerControllerOfVignett >= 46.5))
         {
             drawing31.SetActive(true);
             currentDrawings = 31;
             return;
         }
 
-        if ((currentDrawings == 31) && (timerControllerOfVignett >= 31))
+        if ((currentDrawings == 31) && (timerControllerOfVignett >= 48))
         {
             drawing32.SetActive(true);
             currentDrawings = 32;
             return;
         }
 
-        if ((currentDrawings == 32) && (timerControllerOfVignett >= 32))
+        if ((currentDrawings == 32) && (timerControllerOfVignett >= 49.5))
         {
             drawing33.SetActive(true);
             currentDrawings = 33;
             return;
         }
 
-        if ((currentDrawings == 33) && (timerControllerOfVignett >= 35))
+        if ((currentDrawings == 33) && (timerControllerOfVignett >= 51))
         {
             gsm.GoToTutorial();
             return;
