@@ -600,7 +600,7 @@ public class IntroductionController : MonoBehaviour
             return;
         }
 
-        if ((currentDrawings == 33) && (timerControllerOfVignett >= 51))
+        if ((currentDrawings == 33) && (timerControllerOfVignett >= 53))
         {
             gsm.GoToTutorial();
             return;
