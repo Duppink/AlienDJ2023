@@ -144,7 +144,7 @@ public class Flechitas : MonoBehaviour
 
         if (gm.Mision2_GloboUFO == true)
         {
-            misiones[1].text = "Misión 2: Creo que la chica del afro me mando el globo UFO solo de buena onda... menos mal";                       
+            misiones[1].text = "Misión 2: Creo que la chica del afro me mandó el globo UFO solo de buena onda... menos mal";                       
             
         }
 
